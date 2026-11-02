@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#071b17" />
+  <meta name="description" content="RipeVision helps banana exporters make smarter quality decisions with AI ripeness inspection and ethylene monitoring." />
+  <title>RipeVision — Smarter banana quality, from box to export</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#071b17;--bg2:#0b241e;--panel:#102d25;--panel2:#15372d;--line:rgba(224,246,224,.13);
+      --text:#eff8ed;--muted:#a9beb0;--lime:#d5f36a;--mint:#7ed6a2;--yellow:#f4c95d;
+      --orange:#f28d5b;--red:#f07870;--radius:22px;--shadow:0 24px 80px rgba(0,0,0,.28);
+    }
+    *{box-sizing:border-box} html{scroll-behavior:smooth;scroll-padding-top:90px}
+    body{margin:0;background:var(--bg);color:var(--text);font-family:"DM Sans",sans-serif;overflow-x:hidden}
+    body:before{content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;background:radial-gradient(ellipse at 82% 8%,rgba(126,214,162,.12),transparent 35%),radial-gradient(ellipse at 5% 45%,rgba(213,243,106,.06),transparent 30%)}
+    a{color:inherit;text-decoration:none} button{font:inherit}
+    .container{width:min(1180px,calc(100% - 48px));margin:auto}
+    .mono{font-family:"DM Mono",monospace;letter-spacing:.08em;text-transform:uppercase;font-size:11px}
+    .muted{color:var(--muted)} .lime{color:var(--lime)}
+    .nav-wrap{position:fixed;z-index:20;top:0;left:0;width:100%;transition:.3s}
+    .nav-wrap.scrolled{background:rgba(7,27,23,.84);backdrop-filter:blur(18px);border-bottom:1px solid var(--line)}
+    nav{height:78px;display:flex;align-items:center;justify-content:space-between}
+    .brand{display:flex;align-items:center;gap:11px;font:800 20px Manrope,sans-serif;letter-spacing:-.8px}
+    .brand-mark{width:34px;height:34px;border-radius:11px;background:var(--lime);display:grid;place-items:center;color:#10251a;font-size:19px;box-shadow:0 0 28px rgba(213,243,106,.18)}
+    .brand span span{color:var(--lime)}
+    .nav-links{display:flex;align-items:center;gap:30px;color:#c1d0c4;font-size:13px}
+    .nav-links a{transition:.2s}.nav-links a:hover{color:var(--lime)}
+    .nav-cta,.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;border-radius:999px;padding:13px 19px;font-weight:700;font-size:13px;transition:.25s;border:1px solid transparent}
+    .nav-cta,.btn-primary{background:var(--lime);color:#14251a}.nav-cta:hover,.btn-primary:hover{transform:translateY(-3px);box-shadow:0 12px 35px rgba(213,243,106,.18)}
+    .btn-ghost{border-color:var(--line);color:var(--text);background:rgba(255,255,255,.025)}.btn-ghost:hover{border-color:var(--lime);color:var(--lime)}
+    .menu-btn{display:none;background:none;border:0;color:white;font-size:24px}
+    .hero{min-height:790px;padding:160px 0 95px;position:relative;display:flex;align-items:center}
+    .hero-grid{display:grid;grid-template-columns:1.03fr .97fr;align-items:center;gap:55px}
+    .eyebrow{display:inline-flex;align-items:center;gap:10px;color:var(--lime);margin-bottom:24px}
+    .pulse{width:7px;height:7px;border-radius:50%;background:var(--lime);box-shadow:0 0 0 6px rgba(213,243,106,.12);animation:pulse 2s infinite}
+    @keyframes pulse{50%{box-shadow:0 0 0 11px rgba(213,243,106,0)}}
+    h1,h2,h3,p{margin-top:0} h1{font:800 clamp(48px,6vw,76px)/1.04 Manrope,sans-serif;letter-spacing:-4px;margin-bottom:25px}
+    h1 em{font-style:normal;color:var(--lime)}
+    .hero-copy{font-size:17px;line-height:1.8;color:#b6c8ba;max-width:550px;margin-bottom:32px}
+    .hero-actions{display:flex;gap:12px;flex-wrap:wrap}
+    .hero-note{display:flex;gap:25px;margin-top:46px;color:var(--muted);font-size:12px}
+    .hero-note span{display:flex;align-items:center;gap:8px}.hero-note b{color:var(--lime);font:500 11px "DM Mono"}
+    .visual{min-height:510px;position:relative;display:grid;place-items:center}
+    .orbit{position:absolute;width:450px;height:450px;border:1px solid rgba(213,243,106,.12);border-radius:50%;animation:rotate 40s linear infinite}
+    .orbit:before,.orbit:after{content:"";position:absolute;width:9px;height:9px;border-radius:50%;background:var(--lime);top:55px;left:50px;box-shadow:0 0 22px var(--lime)}
+    .orbit:after{top:auto;left:auto;bottom:30px;right:80px;background:var(--mint)}
+    @keyframes rotate{to{transform:rotate(360deg)}}
+    .scanner-card{position:relative;width:min(420px,100%);padding:24px;border-radius:28px;background:linear-gradient(145deg,rgba(26,66,52,.95),rgba(9,34,27,.95));border:1px solid rgba(213,243,106,.24);box-shadow:0 35px 100px rgba(0,0,0,.42);transform:rotate(-3deg);animation:float 6s ease-in-out infinite}
+    @keyframes float{50%{transform:translateY(-12px) rotate(-1deg)}}
+    .scan-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:18px}
+    .scan-status{font:11px "DM Mono";color:var(--mint);display:flex;align-items:center;gap:7px}
+    .scan-image{height:235px;border-radius:17px;overflow:hidden;position:relative;background:linear-gradient(135deg,#526c32,#c7a64e 55%,#385536)}
+    .banana-art{position:absolute;inset:0;background:radial-gradient(ellipse at 45% 45%,rgba(255,232,130,.7),transparent 43%),linear-gradient(145deg,transparent 45%,rgba(7,27,23,.3));}
+    .banana{position:absolute;width:180px;height:65px;border-radius:50%;background:linear-gradient(180deg,#f8df68,#c5a92c 72%,#82701f);box-shadow:inset 0 -7px 9px rgba(65,50,5,.2),0 10px 18px rgba(0,0,0,.22);transform:rotate(-28deg)}
+    .banana:before,.banana:after{content:"";position:absolute;width:13px;height:10px;background:#443b1d;border-radius:50%;top:27px}.banana:before{left:-3px}.banana:after{right:-3px}
+    .b1{top:43px;left:50px;transform:rotate(22deg)}.b2{top:94px;left:112px;transform:rotate(-25deg)}.b3{top:146px;left:35px;transform:rotate(-8deg);background:linear-gradient(180deg,#e7c84c,#a78c25)}
+    .mask-line{position:absolute;inset:29px 35px 32px 29px;border:2px solid var(--lime);border-radius:48% 43% 48% 42%;transform:rotate(22deg);filter:drop-shadow(0 0 5px var(--lime))}
+    .mask-line.two{inset:90px 48px 28px 108px;transform:rotate(-25deg);border-color:#7ee2ac}
+    .scan-cross{position:absolute;inset:0;background:linear-gradient(transparent 49.5%,rgba(213,243,106,.18) 50%,transparent 50.5%);background-size:100% 8px;opacity:.5;animation:scan 4s linear infinite}
+    @keyframes scan{to{background-position:0 235px}}
+    .scan-bottom{display:grid;grid-template-columns:1fr auto;gap:12px;align-items:center;margin-top:18px}
+    .scan-bottom strong{display:block;font:700 16px Manrope}.scan-bottom small{color:var(--muted);font-size:11px}
+    .score{font:700 22px Manrope;color:var(--lime)}
+    .float-chip{position:absolute;padding:13px 16px;border-radius:14px;background:#16392e;border:1px solid var(--line);box-shadow:var(--shadow);font-size:12px;animation:float 5s ease-in-out infinite}
+    .chip-one{top:65px;right:-5px}.chip-two{bottom:75px;left:-15px;animation-delay:-2s}
+    .chip-one b,.chip-two b{display:block;font:700 15px Manrope;margin-top:4px}
+    section{padding:110px 0}.section-head{max-width:690px;margin-bottom:52px}
+    .kicker{color:var(--lime);margin-bottom:15px}.section-head h2{font:800 clamp(34px,4vw,51px)/1.12 Manrope;letter-spacing:-2px;margin-bottom:18px}
+    .section-head p{color:var(--muted);line-height:1.8;font-size:15px}
+    .problem{background:#0a211b;border-block:1px solid var(--line)}
+    .problem-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    .problem-card,.feature-card,.data-card,.audio-card{background:linear-gradient(145deg,rgba(21,55,45,.78),rgba(11,35,28,.8));border:1px solid var(--line);border-radius:var(--radius);padding:27px;transition:.3s}
+    .problem-card:hover,.feature-card:hover,.data-card:hover,.audio-card:hover{transform:translateY(-6px);border-color:rgba(213,243,106,.4)}
+    .icon-box{width:43px;height:43px;border-radius:13px;background:rgba(213,243,106,.11);display:grid;place-items:center;color:var(--lime);font-size:20px;margin-bottom:23px}
+    .problem-card h3,.feature-card h3{font:700 18px Manrope;margin-bottom:10px}.problem-card p,.feature-card p{color:var(--muted);font-size:13px;line-height:1.75;margin:0}
+    .product-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:65px;align-items:center}
+    .module-visual{min-height:420px;border-radius:28px;border:1px solid var(--line);background:radial-gradient(circle at 50% 45%,rgba(213,243,106,.12),transparent 48%),#0b241e;display:grid;place-items:center;position:relative;overflow:hidden}
+    .module{width:260px;height:200px;border-radius:25px;background:linear-gradient(145deg,#d7dfd0,#6d8376 48%,#263e35);box-shadow:0 30px 60px rgba(0,0,0,.45);position:relative;transform:rotate(-9deg);border:7px solid #263a31}
+    .module:before{content:"";position:absolute;width:82px;height:82px;border-radius:50%;background:radial-gradient(circle at 35% 35%,#526b67,#101b1c 55%,#030808 70%);border:7px solid #b8c4b7;right:23px;top:48px;box-shadow:0 0 0 4px #354c42}
+    .module:after{content:"ESP32-CAM";position:absolute;left:19px;top:28px;color:#19352b;font:700 12px "DM Mono"}
+    .module-led{position:absolute;width:9px;height:9px;border-radius:50%;background:#b8f66c;left:30px;bottom:34px;box-shadow:0 0 15px #b8f66c}
+    .sensor{position:absolute;width:115px;height:75px;border-radius:14px;background:#1a3c30;border:1px solid rgba(213,243,106,.35);right:10%;bottom:12%;display:grid;place-items:center;color:var(--lime);font:11px "DM Mono";transform:rotate(5deg)}
+    .module-label{position:absolute;left:9%;top:15%;font:11px "DM Mono";color:var(--mint)}
+    .product-copy h2{font:800 clamp(34px,4vw,49px)/1.12 Manrope;letter-spacing:-2px;margin-bottom:20px}
+    .product-copy>p{color:var(--muted);line-height:1.85;font-size:15px}
+    .spec-list{list-style:none;padding:0;margin:27px 0 0;display:grid;gap:16px}
+    .spec-list li{display:flex;gap:13px;align-items:flex-start;color:#d5e4d8;font-size:14px;line-height:1.6}
+    .check{color:var(--lime);font-weight:bold}
+    .workflow{background:#0a211b;border-block:1px solid var(--line)}
+    .steps{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;counter-reset:step}
+    .step{padding:25px 22px;border-top:1px solid rgba(213,243,106,.35);background:linear-gradient(180deg,rgba(213,243,106,.045),transparent);counter-increment:step}
+    .step:before{content:"0" counter(step);font:12px "DM Mono";color:var(--lime);display:block;margin-bottom:25px}
+    .step h3{font:700 17px Manrope;margin-bottom:9px}.step p{font-size:13px;color:var(--muted);line-height:1.7;margin:0}
+    .decision{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:30px}
+    .decision-box{padding:24px;border-radius:18px;border:1px solid var(--line);background:rgba(255,255,255,.025)}
+    .decision-box h3{font:700 15px Manrope;margin-bottom:8px}.decision-box p{font-size:13px;color:var(--muted);line-height:1.7;margin:0}
+    .tag{display:inline-block;border-radius:999px;padding:6px 10px;font:10px "DM Mono";margin-bottom:14px}
+    .tag.accept{background:rgba(126,214,162,.12);color:var(--mint)}.tag.review{background:rgba(240,120,112,.12);color:var(--red)}
+    .impact-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    .impact{padding:30px;border:1px solid var(--line);border-radius:20px;background:rgba(255,255,255,.025)}
+    .impact .big{font:800 35px Manrope;color:var(--lime);letter-spacing:-1px;margin-bottom:10px}.impact h3{font:700 15px Manrope;margin-bottom:8px}.impact p{color:var(--muted);font-size:12px;line-height:1.7;margin:0}
+    .data-section{background:#0a211b;border-block:1px solid var(--line)}
+    .data-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+    .data-card{min-height:230px}.data-card h3{font:700 17px Manrope;margin:0 0 8px}.data-card p{font-size:13px;color:var(--muted);line-height:1.7}
+    .data-placeholder{margin-top:20px;padding:15px;border-radius:13px;background:rgba(0,0,0,.18);border:1px dashed rgba(213,243,106,.25);color:#a9beb0;font:11px "DM Mono";line-height:1.8}
+    .audio-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+    .audio-card .audio-icon{font-size:22px;color:var(--lime);margin-bottom:20px}.audio-card h3{font:700 17px Manrope;margin-bottom:8px}.audio-card p{font-size:13px;color:var(--muted);line-height:1.7}
+    audio{width:100%;height:38px;margin-top:12px;accent-color:var(--lime)}
+    .audio-missing{padding:12px;border-radius:12px;background:rgba(0,0,0,.2);font:11px "DM Mono";color:var(--yellow);line-height:1.6;margin-top:14px}
+    .form-cta{margin-top:20px;padding:28px;border-radius:20px;border:1px solid rgba(213,243,106,.22);background:linear-gradient(110deg,rgba(213,243,106,.09),rgba(126,214,162,.04));display:flex;justify-content:space-between;align-items:center;gap:20px}
+    .form-cta h3{font:700 18px Manrope;margin-bottom:7px}.form-cta p{color:var(--muted);font-size:13px;margin:0}
+    .faq{max-width:820px}.faq-item{border-bottom:1px solid var(--line)}.faq-q{width:100%;padding:22px 0;background:none;border:0;color:var(--text);display:flex;justify-content:space-between;text-align:left;font:600 15px Manrope;cursor:pointer}.faq-a{max-height:0;overflow:hidden;transition:max-height .35s ease;color:var(--muted);font-size:13px;line-height:1.8}.faq-item.open .faq-a{max-height:180px;padding-bottom:20px}.faq-q span{color:var(--lime);font-size:20px;transition:.25s}.faq-item.open .faq-q span{transform:rotate(45deg)}
+
+    .contact h2{font:800 clamp(32px,4vw,46px)/1.1 Manrope;letter-spacing:-2px;margin-bottom:13px}.contact p{color:#b6c9b8;line-height:1.7;margin:0;max-width:620px}
+    footer{padding:45px 0 30px}.footer-top{display:flex;justify-content:space-between;gap:30px;padding-bottom:35px;border-bottom:1px solid var(--line)}.footer-copy{max-width:310px;color:var(--muted);font-size:12px;line-height:1.7;margin-top:15px}.footer-links{display:flex;gap:24px;color:var(--muted);font-size:12px}.footer-bottom{display:flex;justify-content:space-between;padding-top:22px;color:#71897a;font:10px "DM Mono"}
+    .reveal{opacity:0;transform:translateY(24px);transition:opacity .7s ease,transform .7s ease}.reveal.visible{opacity:1;transform:translateY(0)}
+
+    @media(max-width:900px){.hero-grid,.product-grid{grid-template-columns:1fr}.hero{padding-top:135px}.hero-grid{gap:30px}.visual{min-height:460px}.problem-grid,.impact-grid{grid-template-columns:1fr 1fr}.steps{grid-template-columns:1fr 1fr}.product-grid{gap:35px}.module-visual{min-height:360px}}
+    @media(max-width:650px){.container{width:min(100% - 32px,1180px)}nav{height:68px}.menu-btn{display:block}.nav-cta{display:none}.nav-links{display:none;position:absolute;top:68px;left:0;right:0;padding:22px 24px;background:#0b241e;border-bottom:1px solid var(--line);flex-direction:column;align-items:flex-start;gap:20px}.nav-links.open{display:flex}.hero{min-height:auto;padding:125px 0 65px}h1{letter-spacing:-2.5px}.hero-copy{font-size:15px}.hero-note{flex-wrap:wrap;gap:13px}.visual{min-height:390px}.orbit{width:320px;height:320px}.scanner-card{width:340px;padding:16px}.scan-image{height:190px}.banana{width:150px;height:54px}.b1{left:35px;top:30px}.b2{left:90px;top:80px}.b3{top:130px}.chip-one{right:-3px;top:30px}.chip-two{left:-3px;bottom:35px}.problem-grid,.impact-grid,.data-grid,.audio-grid,.decision{grid-template-columns:1fr}.steps{grid-template-columns:1fr 1fr}.step{padding:20px 15px}.section-head{margin-bottom:35px}section{padding:75px 0}.form-cta,.contact{padding:27px;display:block}.form-cta .btn,.contact .btn{margin-top:22px}.footer-top,.footer-bottom{flex-direction:column}.footer-links{flex-wrap:wrap}.module-visual{min-height:320px}}
+    @media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;animation:none!important;transition:none!important}.reveal{opacity:1;transform:none}}
+  </style>
+</head>
+<body>
+  <div class="nav-wrap" id="nav">
+    <div class="container"><nav>
+      <a class="brand" href="#home"><span class="brand-mark">⌁</span><span>ripe<span>vision</span></span></a>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#solution">Solution</a><a href="#technology">Technology</a><a href="#process">How it works</a><a href="#insights">Project insights</a><a href="#faq">FAQ</a>
+      </div>
+      <a class="nav-cta" href="#insights">Explore research ↗</a>
+    </nav></div>
+  </div>
+
+  <main id="home">
+    <header class="hero">
+      <div class="container hero-grid">
+        <div class="reveal">
+          <div class="eyebrow mono"><i class="pulse"></i> INTELLIGENT POST-HARVEST QUALITY</div>
+          <h1>Freshness is a<br><em>business decision.</em></h1>
+          <p class="hero-copy">Meet RipeVision: an intelligent inspection module that combines AI-powered banana ripeness detection with ethylene monitoring to help exporters make smarter box-level decisions.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#technology">Explore the technology <span>↘</span></a>
+            <a class="btn btn-ghost" href="#insights">View project insights <span>↗</span></a>
+          </div>
+          <div class="hero-note mono"><span><b>01</b> AI visual inspection</span><span><b>02</b> Ethylene sensing</span><span><b>03</b> Box-level decision</span></div>
+        </div>
+        <div class="visual reveal">
+          <div class="orbit"></div>
+          <div class="scanner-card">
+            <div class="scan-top"><span class="mono">RIPEVISION / VISION UNIT</span><span class="scan-status"><i class="pulse"></i> SYSTEM READY</span></div>
+            <div class="scan-image"><div class="banana-art"></div><div class="banana b1"></div><div class="banana b2"></div><div class="banana b3"></div><div class="mask-line"></div><div class="mask-line two"></div><div class="scan-cross"></div></div>
+            <div class="scan-bottom"><div><strong>Visual inspection</strong><small>AI ripeness classification · ESP32-CAM</small></div><div class="score">AI<span style="font-size:10px"> / ON</span></div></div>
+          </div>
+          <div class="float-chip chip-one"><span class="mono muted">SENSING LAYER</span><b>Ethylene monitoring</b></div>
+          <div class="float-chip chip-two"><span class="mono muted">OUTPUT</span><b>Box acceptance decision ↗</b></div>
+        </div>
+      </div>
+    </header>
+
+    <section class="problem" id="solution">
+      <div class="container">
+        <div class="section-head reveal"><div class="kicker mono">THE CHALLENGE</div><h2>One inconsistent box can compromise an entire shipment.</h2><p>Visual checks are difficult to standardise at scale. Meanwhile, ripening continues after packing. RipeVision is designed to give teams another layer of information before boxes move further through the supply chain.</p></div>
+        <div class="problem-grid">
+          <article class="problem-card reveal"><div class="icon-box">◉</div><h3>Uneven ripeness</h3><p>A bunch can contain bananas at different stages of ripeness. A box-level view can miss individual outliers without systematic inspection.</p></article>
+          <article class="problem-card reveal"><div class="icon-box">⌁</div><h3>Ethylene build-up</h3><p>Ethylene is associated with fruit ripening. Monitoring its presence can add useful context to a box-level quality decision.</p></article>
+          <article class="problem-card reveal"><div class="icon-box">↗</div><h3>Waste and cost</h3><p>Better information can help teams target intervention—such as adding ethylene absorbers to boxes flagged for further attention—instead of treating every box the same.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="technology">
+      <div class="container product-grid">
+        <div class="module-visual reveal">
+          <div class="module"><div class="module-led"></div></div>
+          <div class="sensor">ETHYLENE<br>SENSOR</div>
+          <div class="module-label">01 / RipeVision inspection module</div>
+          <div style="position:absolute;bottom:22px;left:24px;color:#799687;font:10px 'DM Mono'">ESP32-CAM · AI INFERENCE · SENSOR INPUT</div>
+        </div>
+        <div class="product-copy reveal">
+          <div class="kicker mono">THE RIPEVISION MODULE</div>
+          <h2>Two sensing layers.<br><span class="lime">One clearer decision.</span></h2>
+          <p>At the heart of RipeVision is a compact inspection module. An ESP32-CAM captures images of the banana bunch and sends them to the AI ripeness-detection pipeline. A gas-sensing layer measures ethylene levels to provide an additional signal for box assessment.</p>
+          <ul class="spec-list">
+            <li><span class="check">✓</span><span><b>ESP32-CAM imaging</b><br><span class="muted">Captures the bunch for computer-vision analysis.</span></span></li>
+            <li><span class="check">✓</span><span><b>AI ripeness analysis</b><br><span class="muted">Classifies bananas as ripe, unripe or overripe, identifying variation within a bunch.</span></span></li>
+            <li><span class="check">✓</span><span><b>Ethylene sensing</b><br><span class="muted">Measures ethylene presence as an additional indicator for the box-level workflow.</span></span></li>
+            <li><span class="check">✓</span><span><b>Actionable box decision</b><br><span class="muted">Flags boxes that need review or intervention before dispatch.</span></span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="workflow" id="process">
+      <div class="container">
+        <div class="section-head reveal"><div class="kicker mono">HOW IT WORKS</div><h2>From image capture to a smarter box decision.</h2><p>RipeVision brings visual ripeness classification and ethylene monitoring into one inspection workflow.</p></div>
+        <div class="steps">
+          <article class="step reveal"><h3>Capture</h3><p>The ESP32-CAM captures an image of the banana bunch inside the inspection area.</p></article>
+          <article class="step reveal"><h3>Analyse</h3><p>The AI pipeline identifies individual bananas and evaluates their ripeness levels.</p></article>
+          <article class="step reveal"><h3>Measure</h3><p>The module's gas sensor checks ethylene presence and provides another input for assessment.</p></article>
+          <article class="step reveal"><h3>Decide</h3><p>The system flags boxes that meet the configured acceptance rules or require intervention.</p></article>
+        </div>
+        <div class="decision">
+          <div class="decision-box reveal"><span class="tag accept">ACCEPTANCE PATH</span><h3>Consistent bunch, within configured limits</h3><p>The box can proceed through the workflow when the ripeness assessment and ethylene reading satisfy the configured criteria.</p></div>
+          <div class="decision-box reveal"><span class="tag review">REVIEW / INTERVENTION</span><h3>Variation or elevated ethylene reading</h3><p>The box is flagged. Teams can inspect the identified ripeness outliers and consider adding ethylene absorbers where appropriate, then reassess.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="benefits">
+      <div class="container">
+        <div class="section-head reveal"><div class="kicker mono">WHY RIPEVISION</div><h2>Built around better decisions, not just more data.</h2><p>RipeVision is designed to support the people handling quality checks, packing and export readiness.</p></div>
+        <div class="impact-grid">
+          <article class="impact reveal"><div class="big">01</div><h3>Targeted intervention</h3><p>Identify boxes that need attention so teams can focus effort where the inspection signals indicate it may be useful.</p></article>
+          <article class="impact reveal"><div class="big">02</div><h3>Less avoidable waste</h3><p>Earlier identification of ripeness variation and ethylene concerns can support more informed handling decisions.</p></article>
+          <article class="impact reveal"><div class="big">03</div><h3>More consistent checks</h3><p>A repeatable AI-assisted workflow can help reduce reliance on subjective visual inspection alone.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="data-section" id="insights">
+      <div class="container">
+        <div class="section-head reveal"><div class="kicker mono">PROJECT INSIGHTS</div><h2>Evidence, conversations and field feedback.</h2><p>This section is reserved for RipeVision's primary research and project records. Add your actual interview recordings and Google Forms results here so visitors can explore the evidence behind the product.</p></div>
+        <div class="data-grid">
+          <article class="data-card reveal"><div class="icon-box">▤</div><h3>Google Forms research</h3><p>Present responses from traders, exporters, packers or other stakeholders. The actual Google Forms responses will be displayed here as a searchable, readable table once the public Excel link is provided.</p><div class="data-placeholder">SURVEY RESPONSE TABLE<br>The published Excel response link will be connected here.<br><br>Once the link is added, this panel will display the actual form responses in a readable HTML table.</div></article>
+          <article class="data-card reveal"><div class="icon-box">◷</div><h3>Research snapshot</h3><p>Use this space for the strongest findings from your form data—without presenting unverified numbers as facts.</p><div class="data-placeholder">ADD VERIFIED FINDINGS<br>• Most common post-harvest concern<br>• Current inspection method<br>• Reported ripening / spoilage challenges<br>• Feedback on ethylene absorber use</div></article>
+        </div>
+        <div style="margin-top:58px" class="reveal">
+          <div class="kicker mono">LISTEN TO THE CONVERSATIONS</div>
+          <h2 style="font:800 clamp(30px,3.5vw,42px) Manrope;letter-spacing:-1.5px;margin-bottom:13px">Voices from the field.</h2>
+          <p class="muted" style="font-size:14px;line-height:1.7;max-width:650px;margin-bottom:28px">Save both interview audio files in the exact same folder as index.html. The player paths below expect the filenames interview-1.mp3 and interview-2.mp3; change those names in the source if your files are named differently.</p>
+          <div class="audio-grid">
+            <article class="audio-card"><div class="audio-icon">◖))</div><div class="mono lime" style="margin-bottom:10px">INTERVIEW / 01</div><h3>Stakeholder interview one</h3><p>Add the interviewee's role and a short description of the conversation here.</p><audio controls preload="none"><source src="interview-1.mp3" type="audio/mpeg">Your browser does not support audio playback.</audio><div class="audio-missing">FILE EXPECTED: interview-1.mp3<br>Keep this audio file in the same folder as index.html. If its name differs, update the source filename in the code.</div></article>
+            <article class="audio-card"><div class="audio-icon">◖))</div><div class="mono lime" style="margin-bottom:10px">INTERVIEW / 02</div><h3>Stakeholder interview two</h3><p>Add the interviewee's role and a short description of the conversation here.</p><audio controls preload="none"><source src="interview-2.mp3" type="audio/mpeg">Your browser does not support audio playback.</audio><div class="audio-missing">FILE EXPECTED: interview-2.mp3<br>Keep this audio file in the same folder as index.html. If its name differs, update the source filename in the code.</div></article>
+          </div>
+        </div>
+        <div class="form-cta reveal"><div><h3>Survey responses</h3><p>The live response table will be added here after you share the public Excel link. Only the data in your spreadsheet will be shown.</p></div><span class="mono lime">EXCEL DATA INTEGRATION · PENDING LINK</span></div>
+      </div>
+    </section>
+
+    <section id="faq">
+      <div class="container">
+        <div class="section-head reveal"><div class="kicker mono">FAQ</div><h2>Clear answers for a changing supply chain.</h2></div>
+        <div class="faq">
+          <div class="faq-item reveal"><button class="faq-q">What does RipeVision inspect? <span>+</span></button><div class="faq-a">RipeVision is designed to inspect banana bunches using camera images and AI-based ripeness classification, while also measuring ethylene presence as an additional box-level signal.</div></div>
+          <div class="faq-item reveal"><button class="faq-q">Does the system replace human quality teams? <span>+</span></button><div class="faq-a">No. The goal is to provide repeatable information and flag boxes that may need attention. Human teams remain responsible for inspection, handling and final operational decisions.</div></div>
+          <div class="faq-item reveal"><button class="faq-q">What happens when a box is flagged? <span>+</span></button><div class="faq-a">The workflow can identify ripeness outliers and flag an elevated ethylene reading. Staff can review the box and consider targeted steps, such as using ethylene absorbers, based on their operating procedures.</div></div>
+          <div class="faq-item reveal"><button class="faq-q">Is RipeVision commercially deployed? <span>+</span></button><div class="faq-a">Update this answer to reflect your actual prototype and validation status. Avoid describing the system as commercially validated until it has been tested in representative operating conditions.</div></div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-top">
+        <div><a class="brand" href="#home"><span class="brand-mark">⌁</span><span>ripe<span>vision</span></span></a><p class="footer-copy">AI-assisted banana ripeness inspection and ethylene monitoring for more informed post-harvest decisions.</p></div>
+        <div class="footer-links"><a href="#solution">Solution</a><a href="#technology">Technology</a><a href="#insights">Research</a><a href="#faq">FAQ</a></div>
+      </div>
+      <div class="footer-bottom"><span>© <span id="year"></span> RIPEVISION. ALL RIGHTS RESERVED.</span><span>SMARTER INSPECTION. BETTER DECISIONS.</span></div>
+    </div>
+  </footer>
+  <script>
+    const nav=document.getElementById('nav');
+    window.addEventListener('scroll',()=>nav.classList.toggle('scrolled',window.scrollY>24));
+    const menuBtn=document.getElementById('menuBtn'),navLinks=document.getElementById('navLinks');
+    menuBtn.addEventListener('click',()=>navLinks.classList.toggle('open'));
+    navLinks.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>navLinks.classList.remove('open')));
+    const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('visible');observer.unobserve(entry.target)}}),{threshold:.12});
+    document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
+    document.querySelectorAll('.faq-q').forEach(btn=>btn.addEventListener('click',()=>btn.parentElement.classList.toggle('open')));
+    document.getElementById('year').textContent=new Date().getFullYear();
+  </script>
+</body>
+</html>
