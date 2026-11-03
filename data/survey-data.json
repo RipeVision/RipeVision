@@ -1,0 +1,876 @@
+{
+  "responseCount": 58,
+  "questionCount": 10,
+  "questions": [
+    {
+      "question": "How often do you purchase fresh fruit for your household?",
+      "labels": [
+        "Multiple times a week",
+        "Once a week",
+        "Every two weeks",
+        "Rarely / Never"
+      ],
+      "counts": [
+        34,
+        20,
+        3,
+        1
+      ],
+      "kind": "bar",
+      "note": ""
+    },
+    {
+      "question": "On average, what percentage of the fresh fruit you buy ends up being thrown away?",
+      "labels": [
+        "1% – 10%",
+        "11% – 25%",
+        "0% (I never waste fruit)",
+        "26% – 50%"
+      ],
+      "counts": [
+        28,
+        15,
+        9,
+        6
+      ],
+      "kind": "bar",
+      "note": ""
+    },
+    {
+      "question": "Have you ever thrown away fruit specifically because it went from \"unripe\" to \"spoiled/rotten\" faster than you expected?",
+      "labels": [
+        "Yes, occasionally",
+        "Yes, but very rarely",
+        "Yes, frequently"
+      ],
+      "counts": [
+        22,
+        20,
+        16
+      ],
+      "kind": "bar",
+      "note": ""
+    },
+    {
+      "question": "Which of the following scenarios has caused you to throw away fruit?",
+      "labels": [
+        "I bought it unripe, forgot about it, and it rotted on the counter.",
+        "It felt hard/unripe when I checked it, but it was already rotten on the inside.",
+        "I bought it unripe expecting it to sweeten, but it just spoiled instead (e.g., berries, citrus).",
+        "None of the above",
+        "I intentionally waited for it to ripen, but the window of \"perfect ripeness\" was too short."
+      ],
+      "counts": [
+        21,
+        15,
+        11,
+        6,
+        5
+      ],
+      "kind": "bar",
+      "note": ""
+    },
+    {
+      "question": "Which fruits do you most frequently misjudge the ripening time for, leading to waste?",
+      "labels": [
+        "Bananas",
+        "Mangoes",
+        "Avocados",
+        "Melons (eg., Muskmelon, Watermelon, etc)",
+        "Peaches/ Plums/Nectarines",
+        "Berries(eg.,Raspberry, Blueberry,etc)",
+        "Pears",
+        "Apple"
+      ],
+      "counts": [
+        48,
+        27,
+        23,
+        17,
+        14,
+        13,
+        13,
+        5
+      ],
+      "kind": "bar",
+      "note": "This question allows multiple fruit selections, so totals can exceed the number of respondents."
+    },
+    {
+      "question": "How confident are you in your ability to predict exactly which day a piece of unripe fruit will be ready to eat?",
+      "labels": [
+        "Somewhat confident",
+        "Not very confident",
+        "Extremely confident",
+        "Not confident at all"
+      ],
+      "counts": [
+        36,
+        17,
+        4,
+        1
+      ],
+      "kind": "bar",
+      "note": ""
+    },
+    {
+      "question": "Before today, were you aware of the difference between \"climacteric\" fruits (which keep ripening after harvest, like bananas) and \"non-climacteric\" fruits (which do not ripen after harvest, like strawberries)?",
+      "labels": [
+        "No, I did not know this.",
+        "I had heard of it, but wasn't entirely sure.",
+        "Yes, I knew the difference."
+      ],
+      "counts": [
+        28,
+        20,
+        10
+      ],
+      "kind": "bar",
+      "note": ""
+    },
+    {
+      "question": "How do you typically feel when you have to throw away fruit because you missed the ripening window? (Rate from 1 to 5, where 1 is \"Indifferent\" and 5 is \"Highly Frustrated/Guilty\")",
+      "labels": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "counts": [
+        4,
+        16,
+        19,
+        19
+      ],
+      "kind": "bar",
+      "note": ""
+    },
+    {
+      "question": "When shopping, do you actively look for fruit that is already perfectly ripe, or do you prefer to buy it unripe so it lasts longer?",
+      "labels": [
+        "I prefer buying a mix of ripe and unripe fruit.",
+        "I always look for perfectly ripe, ready-to-eat fruit.",
+        "I purposefully buy unripe fruit to prevent it from spoiling too quickly."
+      ],
+      "counts": [
+        41,
+        12,
+        5
+      ],
+      "kind": "bar",
+      "note": ""
+    },
+    {
+      "question": "Would you pay a small premium (e.g., 5-10% more) for fruit that features technology (like smart scanning or specialized packaging) ensuring a predictable, guaranteed ripening window?",
+      "labels": [
+        "Yes, if it is a fruit I waste often (like bananas)",
+        "Yes, absolutely",
+        "No, I would not pay more"
+      ],
+      "counts": [
+        29,
+        24,
+        5
+      ],
+      "kind": "bar",
+      "note": ""
+    }
+  ],
+  "responses": [
+    {
+      "How often do you purchase fresh fruit for your household?": "Multiple times a week",
+      "On average, what percentage of the fresh fruit you buy ends up being thrown away?": "11% – 25%",
+      "Have you ever thrown away fruit specifically because it went from \"unripe\" to \"spoiled/rotten\" faster than you expected?": "Yes, occasionally",
+      "Which of the following scenarios has caused you to throw away fruit?": "It felt hard/unripe when I checked it, but it was already rotten on the inside.",
+      "Which fruits do you most frequently misjudge the ripening time for, leading to waste?": "Avocados, Bananas, Mangoes, Melons (eg., Muskmelon, Watermelon, etc)",
+      "How confident are you in your ability to predict exactly which day a piece of unripe fruit will be ready to eat?": "Somewhat confident",
+      "Before today, were you aware of the difference between \"climacteric\" fruits (which keep ripening after harvest, like bananas) and \"non-climacteric\" fruits (which do not ripen after harvest, like strawberries)?": "No, I did not know this.",
+      "How do you typically feel when you have to throw away fruit because you missed the ripening window? (Rate from 1 to 5, where 1 is \"Indifferent\" and 5 is \"Highly Frustrated/Guilty\")": "3",
+      "When shopping, do you actively look for fruit that is already perfectly ripe, or do you prefer to buy it unripe so it lasts longer?": "I prefer buying a mix of ripe and unripe fruit.",
+      "Would you pay a small premium (e.g., 5-10% more) for fruit that features technology (like smart scanning or specialized packaging) ensuring a predictable, guaranteed ripening window?": "Yes, absolutely"
+    },
+    {
+      "How often do you purchase fresh fruit for your household?": "Once a week",
+      "On average, what percentage of the fresh fruit you buy ends up being thrown away?": "1% – 10%",
+      "Have you ever thrown away fruit specifically because it went from \"unripe\" to \"spoiled/rotten\" faster than you expected?": "Yes, occasionally",
+      "Which of the following scenarios has caused you to throw away fruit?": "I intentionally waited for it to ripen, but the window of \"perfect ripeness\" was too short.",
+      "Which fruits do you most frequently misjudge the ripening time for, leading to waste?": "Bananas",
+      "How confident are you in your ability to predict exactly which day a piece of unripe fruit will be ready to eat?": "Somewhat confident",
+      "Before today, were you aware of the difference between \"climacteric\" fruits (which keep ripening after harvest, like bananas) and \"non-climacteric\" fruits (which do not ripen after harvest, like strawberries)?": "No, I did not know this.",
+      "How do you typically feel when you have to throw away fruit because you missed the ripening window? (Rate from 1 to 5, where 1 is \"Indifferent\" and 5 is \"Highly Frustrated/Guilty\")": "5",
+      "When shopping, do you actively look for fruit that is already perfectly ripe, or do you prefer to buy it unripe so it lasts longer?": "I prefer buying a mix of ripe and unripe fruit.",
+      "Would you pay a small premium (e.g., 5-10% more) for fruit that features technology (like smart scanning or specialized packaging) ensuring a predictable, guaranteed ripening window?": "Yes, if it is a fruit I waste often (like bananas)"
+    },
+    {
+      "How often do you purchase fresh fruit for your household?": "Multiple times a week",
+      "On average, what percentage of the fresh fruit you buy ends up being thrown away?": "1% – 10%",
+      "Have you ever thrown away fruit specifically because it went from \"unripe\" to \"spoiled/rotten\" faster than you expected?": "Yes, occasionally",
+      "Which of the following scenarios has caused you to throw away fruit?": "I intentionally waited for it to ripen, but the window of \"perfect ripeness\" was too short.",
+      "Which fruits do you most frequently misjudge the ripening time for, leading to waste?": "Avocados, Bananas, Peaches/ Plums/Nectarines, Pears",
+      "How confident are you in your ability to predict exactly which day a piece of unripe fruit will be ready to eat?": "Somewhat confident",
+      "Before today, were you aware of the difference between \"climacteric\" fruits (which keep ripening after harvest, like bananas) and \"non-climacteric\" fruits (which do not ripen after harvest, like strawberries)?": "No, I did not know this.",
+      "How do you typically feel when you have to throw away fruit because you missed the ripening window? (Rate from 1 to 5, where 1 is \"Indifferent\" and 5 is \"Highly Frustrated/Guilty\")": "3",
+      "When shopping, do you actively look for fruit that is already perfectly ripe, or do you prefer to buy it unripe so it lasts longer?": "I always look for perfectly ripe, ready-to-eat fruit.",
+      "Would you pay a small premium (e.g., 5-10% more) for fruit that features technology (like smart scanning or specialized packaging) ensuring a predictable, guaranteed ripening window?": "Yes, if it is a fruit I waste often (like bananas)"
+    },
+    {
+      "How often do you purchase fresh fruit for your household?": "Multiple times a week",
+      "On average, what percentage of the fresh fruit you buy ends up being thrown away?": "1% – 10%",
+      "Have you ever thrown away fruit specifically because it went from \"unripe\" to \"spoiled/rotten\" faster than you expected?": "Yes, occasionally",
+      "Which of the following scenarios has caused you to throw away fruit?": "None of the above",
+      "Which fruits do you most frequently misjudge the ripening time for, leading to waste?": "Bananas",
+      "How confident are you in your ability to predict exactly which day a piece of unripe fruit will be ready to eat?": "Not very confident",
+      "Before today, were you aware of the difference between \"climacteric\" fruits (which keep ripening after harvest, like bananas) and \"non-climacteric\" fruits (which do not ripen after harvest, like strawberries)?": "No, I did not know this.",
+      "How do you typically feel when you have to throw away fruit because you missed the ripening window? (Rate from 1 to 5, where 1 is \"Indifferent\" and 5 is \"Highly Frustrated/Guilty\")": "4",
+      "When shopping, do you actively look for fruit that is already perfectly ripe, or do you prefer to buy it unripe so it lasts longer?": "I always look for perfectly ripe, ready-to-eat fruit.",
+      "Would you pay a small premium (e.g., 5-10% more) for fruit that features technology (like smart scanning or specialized packaging) ensuring a predictable, guaranteed ripening window?": "No, I would not pay more"
+    },
+    {
+      "How often do you purchase fresh fruit for your household?": "Once a week",
+      "On average, what percentage of the fresh fruit you buy ends up being thrown away?": "1% – 10%",
+      "Have you ever thrown away fruit specifically because it went from \"unripe\" to \"spoiled/rotten\" faster than you expected?": "Yes, but very rarely",
+      "Which of the following scenarios has caused you to throw away fruit?": "I bought it unripe, forgot about it, and it rotted on the counter.",
+      "Which fruits do you most frequently misjudge the ripening time for, leading to waste?": "Bananas, Mangoes, Pears, Melons (eg., Muskmelon, Watermelon, etc), Berries(eg.,Raspberry, Blueberry,etc), Apple",
+      "How confident are you in your ability to predict exactly which day a piece of unripe fruit will be ready to eat?": "Somewhat confident",
+      "Before today, were you aware of the difference between \"climacteric\" fruits (which keep ripening after harvest, like bananas) and \"non-climacteric\" fruits (which do not ripen after harvest, like strawberries)?": "No, I did not know this.",
+      "How do you typically feel when you have to throw away fruit because you missed the ripening window? (Rate from 1 to 5, where 1 is \"Indifferent\" and 5 is \"Highly Frustrated/Guilty\")": "5",
+      "When shopping, do you actively look for fruit that is already perfectly ripe, or do you prefer to buy it unripe so it lasts longer?": "I prefer buying a mix of ripe and unripe fruit.",
+      "Would you pay a small premium (e.g., 5-10% more) for fruit that features technology (like smart scanning or specialized packaging) ensuring a predictable, guaranteed ripening window?": "Yes, absolutely"
+    },
+    {
+      "How often do you purchase fresh fruit for your household?": "Once a week",
+      "On average, what percentage of the fresh fruit you buy ends up being thrown away?": "1% – 10%",
+      "Have you ever thrown away fruit specifically because it went from \"unripe\" to \"spoiled/rotten\" faster than you expected?": "Yes, frequently",
+      "Which of the following scenarios has caused you to throw away fruit?": "I bought it unripe expecting it to sweeten, but it just spoiled instead (e.g., berries, citrus).",
+      "Which fruits do you most frequently misjudge the ripening time for, leading to waste?": "Bananas",
+      "How confident are you in your ability to predict exactly which day a piece of unripe fruit will be ready to eat?": "Somewhat confident",
+      "Before today, were you aware of the difference between \"climacteric\" fruits (which keep ripening after harvest, like bananas) and \"non-climacteric\" fruits (which do not ripen after harvest, like strawberries)?": "No, I did not know this.",
+      "How do you typically feel when you have to throw away fruit because you missed the ripening window? (Rate from 1 to 5, where 1 is \"Indifferent\" and 5 is \"Highly Frustrated/Guilty\")": "3",
+      "When shopping, do you actively look for fruit that is already perfectly ripe, or do you prefer to buy it unripe so it lasts longer?": "I prefer buying a mix of ripe and unripe fruit.",
+      "Would you pay a small premium (e.g., 5-10% more) for fruit that features technology (like smart scanning or specialized packaging) ensuring a predictable, guaranteed ripening window?": "Yes, if it is a fruit I waste often (like bananas)"
+    },
+    {
+      "How often do you purchase fresh fruit for your household?": "Multiple times a week",
+      "On average, what percentage of the fresh fruit you buy ends up being thrown away?": "1% – 10%",
+      "Have you ever thrown away fruit specifically because it went from \"unripe\" to \"spoiled/rotten\" faster than you expected?": "Yes, occasionally",
+      "Which of the following scenarios has caused you to throw away fruit?": "I bought it unripe expecting it to sweeten, but it just spoiled instead (e.g., berries, citrus).",
+      "Which fruits do you most frequently misjudge the ripening time for, leading to waste?": "Avocados",
+      "How confident are you in your ability to predict exactly which day a piece of unripe fruit will be ready to eat?": "Somewhat confident",
+      "Before today, were you aware of the difference between \"climacteric\" fruits (which keep ripening after harvest, like bananas) and \"non-climacteric\" fruits (which do not ripen after harvest, like strawberries)?": "I had heard of it, but wasn't entirely sure.",
+      "How do you typically feel when you have to throw away fruit because you missed the ripening window? (Rate from 1 to 5, where 1 is \"Indifferent\" and 5 is \"Highly Frustrated/Guilty\")": "5",
+      "When shopping, do you actively look for fruit that is already perfectly ripe, or do you prefer to buy it unripe so it lasts longer?": "I prefer buying a mix of ripe and unripe fruit.",
+      "Would you pay a small premium (e.g., 5-10% more) for fruit that features technology (like smart scanning or specialized packaging) ensuring a predictable, guaranteed ripening window?": "Yes, if it is a fruit I waste often (like bananas)"
+    },
+    {
+      "How often do you purchase fresh fruit for your household?": "Once a week",
+      "On average, what percentage of the fresh fruit you buy ends up being thrown away?": "0% (I never waste fruit)",
+      "Have you ever thrown away fruit specifically because it went from \"unripe\" to \"spoiled/rotten\" faster than you expected?": "Yes, but very rarely",
+      "Which of the following scenarios has caused you to throw away fruit?": "None of the above",
+      "Which fruits do you most frequently misjudge the ripening time for, leading to waste?": "Bananas",
+      "How confident are you in your ability to predict exactly which day a piece of unripe fruit will be ready to eat?": "Somewhat confident",
+      "Before today, were you aware of the difference between \"climacteric\" fruits (which keep ripening after harvest, like bananas) and \"non-climacteric\" fruits (which do not ripen after harvest, like strawberries)?": "I had heard of it, but wasn't entirely sure.",
+      "How do you typically feel when you have to throw away fruit because you missed the ripening window? (Rate from 1 to 5, where 1 is \"Indifferent\" and 5 is \"Highly Frustrated/Guilty\")": "3",
+      "When shopping, do you actively look for fruit that is already perfectly ripe, or do you prefer to buy it unripe so it lasts longer?": "I prefer buying a mix of ripe and unripe fruit.",
+      "Would you pay a small premium (e.g., 5-10% more) for fruit that features technology (like smart scanning or specialized packaging) ensuring a predictable, guaranteed ripening window?": "Yes, if it is a fruit I waste often (like bananas)"
+    },
+    {
+      "How often do you purchase fresh fruit for your household?": "Multiple times a week",
+      "On average, what percentage of the fresh fruit you buy ends up being thrown away?": "26% – 50%",
+      "Have you ever thrown away fruit specifically because it went from \"unripe\" to \"spoiled/rotten\" faster than you expected?": "Yes, frequently",
+      "Which of the following scenarios has caused you to throw away fruit?": "I bought it unripe, forgot about it, and it rotted on the counter.",
+      "Which fruits do you most frequently misjudge the ripening time for, leading to waste?": "Avocados, Bananas, Apples",
+      "How confident are you in your ability to predict exactly which day a piece of unripe fruit will be ready to eat?": "Not very confident",
+      "Before today, were you aware of the difference between \"climacteric\" fruits (which keep ripening after harvest, like bananas) and \"non-climacteric\" fruits (which do not ripen after harvest, like strawberries)?": "I had heard of it, but wasn't entirely sure.",
+      "How do you typically feel when you have to throw away fruit because you missed the ripening window? (Rate from 1 to 5, where 1 is \"Indifferent\" and 5 is \"Highly Frustrated/Guilty\")": "3",
+      "When shopping, do you actively look for fruit that is already perfectly ripe, or do you prefer to buy it unripe so it lasts longer?": "I prefer buying a mix of ripe and unripe fruit.",
+      "Would you pay a small premium (e.g., 5-10% more) for fruit that features technology (like smart scanning or specialized packaging) ensuring a predictable, guaranteed ripening window?": "Yes, if it is a fruit I waste often (like bananas)"
+    },
+    {
+      "How often do you purchase fresh fruit for your household?": "Multiple times a week",
+      "On average, what percentage of the fresh fruit you buy ends up being thrown away?": "1% – 10%",
+      "Have you ever thrown away fruit specifically because it went from \"unripe\" to \"spoiled/rotten\" faster than you expected?": "Yes, but very rarely",
+      "Which of the following scenarios has caused you to throw away fruit?": "I bought it unripe, forgot about it, and it rotted on the counter.",
+      "Which fruits do you most frequently misjudge the ripening time for, leading to waste?": "Bananas",
+      "How confident are you in your ability to predict exactly which day a piece of unripe fruit will be ready to eat?": "Somewhat confident",
+      "Before today, were you aware of the difference between \"climacteric\" fruits (which keep ripening after harvest, like bananas) and \"non-climacteric\" fruits (which do not ripen after harvest, like strawberries)?": "Yes, I knew the difference.",
+      "How do you typically feel when you have to throw away fruit because you missed the ripening window? (Rate from 1 to 5, where 1 is \"Indifferent\" and 5 is \"Highly Frustrated/Guilty\")": "4",
+      "When shopping, do you actively look for fruit that is already perfectly ripe, or do you prefer to buy it unripe so it lasts longer?": "I prefer buying a mix of ripe and unripe fruit.",
+      "Would you pay a small premium (e.g., 5-10% more) for fruit that features technology (like smart scanning or specialized packaging) ensuring a predictable, guaranteed ripening window?": "Yes, absolutely"
+    },
+    {
+      "How often do you purchase fresh fruit for your household?": "Once a week",
+      "On average, what percentage of the fresh fruit you buy ends up being thrown away?": "1% – 10%",
+      "Have you ever thrown away fruit specifically because it went from \"unripe\" to \"spoiled/rotten\" faster than you expected?": "Yes, frequently",
+      "Which of the following scenarios has caused you to throw away fruit?": "I bought it unripe, forgot about it, and it rotted on the counter.",
+      "Which fruits do you most frequently misjudge the ripening time for, leading to waste?": "Avocados, Bananas, Mangoes, Peaches/ Plums/Nectarines, Pears, Melons (eg., Muskmelon, Watermelon, etc), Berries(eg.,Raspberry, Blueberry,etc)",
+      "How confident are you in your ability to predict exactly which day a piece of unripe fruit will be ready to eat?": "Extremely confident",
+      "Before today, were you aware of the difference between \"climacteric\" fruits (which keep ripening after harvest, like bananas) and \"non-climacteric\" fruits (which do not ripen after harvest, like strawberries)?": "Yes, I knew the difference.",
+      "How do you typically feel when you have to throw away fruit because you missed the ripening window? (Rate from 1 to 5, where 1 is \"Indifferent\" and 5 is \"Highly Frustrated/Guilty\")": "5",
+      "When shopping, do you actively look for fruit that is already perfectly ripe, or do you prefer to buy it unripe so it lasts longer?": "I prefer buying a mix of ripe and unripe fruit.",
+      "Would you pay a small premium (e.g., 5-10% more) for fruit that features technology (like smart scanning or specialized packaging) ensuring a predictable, guaranteed ripening window?": "Yes, absolutely"
+    },
+    {
+      "How often do you purchase fresh fruit for your household?": "Once a week",
+      "On average, what percentage of the fresh fruit you buy ends up being thrown away?": "1% – 10%",
+      "Have you ever thrown away fruit specifically because it went from \"unripe\" to \"spoiled/rotten\" faster than you expected?": "Yes, occasionally",
+      "Which of the following scenarios has caused you to throw away fruit?": "I bought it unripe expecting it to sweeten, but it just spoiled instead (e.g., berries, citrus).",
+      "Which fruits do you most frequently misjudge the ripening time for, leading to waste?": "Avocados, Bananas, Mangoes, Peaches/ Plums/Nectarines, Pears, Melons (eg., Muskmelon, Watermelon, etc), Berries(eg.,Raspberry, Blueberry,etc)",
+      "How confident are you in your ability to predict exactly which day a piece of unripe fruit will be ready to eat?": "Not very confident",
+      "Before today, were you aware of the difference between \"climacteric\" fruits (which keep ripening after harvest, like bananas) and \"non-climacteric\" fruits (which do not ripen after harvest, like strawberries)?": "I had heard of it, but wasn't entirely sure.",
+      "How do you typically feel when you have to throw away fruit because you missed the ripening window? (Rate from 1 to 5, where 1 is \"Indifferent\" and 5 is \"Highly Frustrated/Guilty\")": "5",
+      "When shopping, do you actively look for fruit that is already perfectly ripe, or do you prefer to buy it unripe so it lasts longer?": "I prefer buying a mix of ripe and unripe fruit.",
+      "Would you pay a small premium (e.g., 5-10% more) for fruit that features technology (like smart scanning or specialized packaging) ensuring a predictable, guaranteed ripening window?": "Yes, absolutely"
+    },
+    {
+      "How often do you purchase fresh fruit for your household?": "Multiple times a week",
+      "On average, what percentage of the fresh fruit you buy ends up being thrown away?": "1% – 10%",
+      "Have you ever thrown away fruit specifically because it went from \"unripe\" to \"spoiled/rotten\" faster than you expected?": "Yes, but very rarely",
+      "Which of the following scenarios has caused you to throw away fruit?": "I bought it unripe, forgot about it, and it rotted on the counter.",
+      "Which fruits do you most frequently misjudge the ripening time for, leading to waste?": "Avocados, Bananas, Mangoes",
+      "How confident are you in your ability to predict exactly which day a piece of unripe fruit will be ready to eat?": "Somewhat confident",
+      "Before today, were you aware of the difference between \"climacteric\" fruits (which keep ripening after harvest, like bananas) and \"non-climacteric\" fruits (which do not ripen after harvest, like strawberries)?": "No, I did not know this.",
+      "How do you typically feel when you have to throw away fruit because you missed the ripening window? (Rate from 1 to 5, where 1 is \"Indifferent\" and 5 is \"Highly Frustrated/Guilty\")": "3",
+      "When shopping, do you actively look for fruit that is already perfectly ripe, or do you prefer to buy it unripe so it lasts longer?": "I prefer buying a mix of ripe and unripe fruit.",
+      "Would you pay a small premium (e.g., 5-10% more) for fruit that features technology (like smart scanning or specialized packaging) ensuring a predictable, guaranteed ripening window?": "Yes, if it is a fruit I waste often (like bananas)"
+    },
+    {
+      "How often do you purchase fresh fruit for your household?": "Multiple times a week",
+      "On average, what percentage of the fresh fruit you buy ends up being thrown away?": "11% – 25%",
+      "Have you ever thrown away fruit specifically because it went from \"unripe\" to \"spoiled/rotten\" faster than you expected?": "Yes, but very rarely",
+      "Which of the following scenarios has caused you to throw away fruit?": "I bought it unripe expecting it to sweeten, but it just spoiled instead (e.g., berries, citrus).",
+      "Which fruits do you most frequently misjudge the ripening time for, leading to waste?": "Bananas, Mangoes",
+      "How confident are you in your ability to predict exactly which day a piece of unripe fruit will be ready to eat?": "Not very confident",
+      "Before today, were you aware of the difference between \"climacteric\" fruits (which keep ripening after harvest, like bananas) and \"non-climacteric\" fruits (which do not ripen after harvest, like strawberries)?": "No, I did not know this.",
+      "How do you typically feel when you have to throw away fruit because you missed the ripening window? (Rate from 1 to 5, where 1 is \"Indifferent\" and 5 is \"Highly Frustrated/Guilty\")": "4",
+      "When shopping, do you actively look for fruit that is already perfectly ripe, or do you prefer to buy it unripe so it lasts longer?": "I always look for perfectly ripe, ready-to-eat fruit.",
+      "Would you pay a small premium (e.g., 5-10% more) for fruit that features technology (like smart scanning or specialized packaging) ensuring a predictable, guaranteed ripening window?": "Yes, absolutely"
+    },
+    {
+      "How often do you purchase fresh fruit for your household?": "Multiple times a week",
+      "On average, what percentage of the fresh fruit you buy ends up being thrown away?": "0% (I never waste fruit)",
+      "Have you ever thrown away fruit specifically because it went from \"unripe\" to \"spoiled/rotten\" faster than you expected?": "Yes, but very rarely",
+      "Which of the following scenarios has caused you to throw away fruit?": "None of the above",
+      "Which fruits do you most frequently misjudge the ripening time for, leading to waste?": "Bananas, Mangoes",
+      "How confident are you in your ability to predict exactly which day a piece of unripe fruit will be ready to eat?": "Extremely confident",
+      "Before today, were you aware of the difference between \"climacteric\" fruits (which keep ripening after harvest, like bananas) and \"non-climacteric\" fruits (which do not ripen after harvest, like strawberries)?": "No, I did not know this.",
+      "How do you typically feel when you have to throw away fruit because you missed the ripening window? (Rate from 1 to 5, where 1 is \"Indifferent\" and 5 is \"Highly Frustrated/Guilty\")": "5",
+      "When shopping, do you actively look for fruit that is already perfectly ripe, or do you prefer to buy it unripe so it lasts longer?": "I prefer buying a mix of ripe and unripe fruit.",
+      "Would you pay a small premium (e.g., 5-10% more) for fruit that features technology (like smart scanning or specialized packaging) ensuring a predictable, guaranteed ripening window?": "Yes, absolutely"
+    },
+    {
+      "How often do you purchase fresh fruit for your household?": "Every two weeks",
+      "On average, what percentage of the fresh fruit you buy ends up being thrown away?": "1% – 10%",
+      "Have you ever thrown away fruit specifically because it went from \"unripe\" to \"spoiled/rotten\" faster than you expected?": "Yes, but very rarely",
+      "Which of the following scenarios has caused you to throw away fruit?": "It felt hard/unripe when I checked it, but it was already rotten on the inside.",
+      "Which fruits do you most frequently misjudge the ripening time for, leading to waste?": "Avocados, Bananas, Melons (eg., Muskmelon, Watermelon, etc)",
+      "How confident are you in your ability to predict exactly which day a piece of unripe fruit will be ready to eat?": "Somewhat confident",
+      "Before today, were you aware of the difference between \"climacteric\" fruits (which keep ripening after harvest, like bananas) and \"non-climacteric\" fruits (which do not ripen after harvest, like strawberries)?": "No, I did not know this.",
+      "How do you typically feel when you have to throw away fruit because you missed the ripening window? (Rate from 1 to 5, where 1 is \"Indifferent\" and 5 is \"Highly Frustrated/Guilty\")": "4",
+      "When shopping, do you actively look for fruit that is already perfectly ripe, or do you prefer to buy it unripe so it lasts longer?": "I prefer buying a mix of ripe and unripe fruit.",
+      "Would you pay a small premium (e.g., 5-10% more) for fruit that features technology (like smart scanning or specialized packaging) ensuring a predictable, guaranteed ripening window?": "Yes, if it is a fruit I waste often (like bananas)"
+    },
+    {
+      "How often do you purchase fresh fruit for your household?": "Multiple times a week",
+      "On average, what percentage of the fresh fruit you buy ends up being thrown away?": "0% (I never waste fruit)",
+      "Have you ever thrown away fruit specifically because it went from \"unripe\" to \"spoiled/rotten\" faster than you expected?": "Yes, but very rarely",
+      "Which of the following scenarios has caused you to throw away fruit?": "It felt hard/unripe when I checked it, but it was already rotten on the inside.",
+      "Which fruits do you most frequently misjudge the ripening time for, leading to waste?": "Avocados, Bananas, Mangoes, Berries(eg.,Raspberry, Blueberry,etc)",
+      "How confident are you in your ability to predict exactly which day a piece of unripe fruit will be ready to eat?": "Not confident at all",
+      "Before today, were you aware of the difference between \"climacteric\" fruits (which keep ripening after harvest, like bananas) and \"non-climacteric\" fruits (which do not ripen after harvest, like strawberries)?": "No, I did not know this.",
+      "How do you typically feel when you have to throw away fruit because you missed the ripening window? (Rate from 1 to 5, where 1 is \"Indifferent\" and 5 is \"Highly Frustrated/Guilty\")": "2",
+      "When shopping, do you actively look for fruit that is already perfectly ripe, or do you prefer to buy it unripe so it lasts longer?": "I prefer buying a mix of ripe and unripe fruit.",
+      "Would you pay a small premium (e.g., 5-10% more) for fruit that features technology (like smart scanning or specialized packaging) ensuring a predictable, guaranteed ripening window?": "Yes, if it is a fruit I waste often (like bananas)"
+    },
+    {
+      "How often do you purchase fresh fruit for your household?": "Multiple times a week",
+      "On average, what percentage of the fresh fruit you buy ends up being thrown away?": "11% – 25%",
+      "Have you ever thrown away fruit specifically because it went from \"unripe\" to \"spoiled/rotten\" faster than you expected?": "Yes, frequently",
+      "Which of the following scenarios has caused you to throw away fruit?": "It felt hard/unripe when I checked it, but it was already rotten on the inside.",
+      "Which fruits do you most frequently misjudge the ripening time for, leading to waste?": "Avocados",
+      "How confident are you in your ability to predict exactly which day a piece of unripe fruit will be ready to eat?": "Somewhat confident",
+      "Before today, were you aware of the difference between \"climacteric\" fruits (which keep ripening after harvest, like bananas) and \"non-climacteric\" fruits (which do not ripen after harvest, like strawberries)?": "I had heard of it, but wasn't entirely sure.",
+      "How do you typically feel when you have to throw away fruit because you missed the ripening window? (Rate from 1 to 5, where 1 is \"Indifferent\" and 5 is \"Highly Frustrated/Guilty\")": "5",
+      "When shopping, do you actively look for fruit that is already perfectly ripe, or do you prefer to buy it unripe so it lasts longer?": "I prefer buying a mix of ripe and unripe fruit.",
+      "Would you pay a small premium (e.g., 5-10% more) for fruit that features technology (like smart scanning or specialized packaging) ensuring a predictable, guaranteed ripening window?": "Yes, absolutely"
+    },
+    {
+      "How often do you purchase fresh fruit for your household?": "Once a week",
+      "On average, what percentage of the fresh fruit you buy ends up being thrown away?": "26% – 50%",
+      "Have you ever thrown away fruit specifically because it went from \"unripe\" to \"spoiled/rotten\" faster than you expected?": "Yes, frequently",
+      "Which of the following scenarios has caused you to throw away fruit?": "I bought it unripe, forgot about it, and it rotted on the counter.",
+      "Which fruits do you most frequently misjudge the ripening time for, leading to waste?": "Bananas, Peaches/ Plums/Nectarines, Melons (eg., Muskmelon, Watermelon, etc), Berries(eg.,Raspberry, Blueberry,etc)",
+      "How confident are you in your ability to predict exactly which day a piece of unripe fruit will be ready to eat?": "Not very confident",
+      "Before today, were you aware of the difference between \"climacteric\" fruits (which keep ripening after harvest, like bananas) and \"non-climacteric\" fruits (which do not ripen after harvest, like strawberries)?": "No, I did not know this.",
+      "How do you typically feel when you have to throw away fruit because you missed the ripening window? (Rate from 1 to 5, where 1 is \"Indifferent\" and 5 is \"Highly Frustrated/Guilty\")": "3",
+      "When shopping, do you actively look for fruit that is already perfectly ripe, or do you prefer to buy it unripe so it lasts longer?": "I always look for perfectly ripe, ready-to-eat fruit.",
+      "Would you pay a small premium (e.g., 5-10% more) for fruit that features technology (like smart scanning or specialized packaging) ensuring a predictable, guaranteed ripening window?": "No, I would not pay more"
+    },
+    {
+      "How often do you purchase fresh fruit for your household?": "Once a week",
+      "On average, what percentage of the fresh fruit you buy ends up being thrown away?": "0% (I never waste fruit)",
+      "Have you ever thrown away fruit specifically because it went from \"unripe\" to \"spoiled/rotten\" faster than you expected?": "Yes, frequently",
+      "Which of the following scenarios has caused you to throw away fruit?": "I bought it unripe, forgot about it, and it rotted on the counter.",
+      "Which fruits do you most frequently misjudge the ripening time for, leading to waste?": "Bananas, Mangoes",
+      "How confident are you in your ability to predict exactly which day a piece of unripe fruit will be ready to eat?": "Somewhat confident",
+      "Before today, were you aware of the difference between \"climacteric\" fruits (which keep ripening after harvest, like bananas) and \"non-climacteric\" fruits (which do not ripen after harvest, like strawberries)?": "I had heard of it, but wasn't entirely sure.",
+      "How do you typically feel when you have to throw away fruit because you missed the ripening window? (Rate from 1 to 5, where 1 is \"Indifferent\" and 5 is \"Highly Frustrated/Guilty\")": "5",
+      "When shopping, do you actively look for fruit that is already perfectly ripe, or do you prefer to buy it unripe so it lasts longer?": "I purposefully buy unripe fruit to prevent it from spoiling too quickly.",
+      "Would you pay a small premium (e.g., 5-10% more) for fruit that features technology (like smart scanning or specialized packaging) ensuring a predictable, guaranteed ripening window?": "No, I would not pay more"
+    },
+    {
+      "How often do you purchase fresh fruit for your household?": "Once a week",
+      "On average, what percentage of the fresh fruit you buy ends up being thrown away?": "1% – 10%",
+      "Have you ever thrown away fruit specifically because it went from \"unripe\" to \"spoiled/rotten\" faster than you expected?": "Yes, frequently",
+      "Which of the following scenarios has caused you to throw away fruit?": "I bought it unripe expecting it to sweeten, but it just spoiled instead (e.g., berries, citrus).",
+      "Which fruits do you most frequently misjudge the ripening time for, leading to waste?": "Avocados, Bananas, Mangoes, Peaches/ Plums/Nectarines, Pears, Melons (eg., Muskmelon, Watermelon, etc), Berries(eg.,Raspberry, Blueberry,etc)",
+      "How confident are you in your ability to predict exactly which day a piece of unripe fruit will be ready to eat?": "Somewhat confident",
+      "Before today, were you aware of the difference between \"climacteric\" fruits (which keep ripening after harvest, like bananas) and \"non-climacteric\" fruits (which do not ripen after harvest, like strawberries)?": "No, I did not know this.",
+      "How do you typically feel when you have to throw away fruit because you missed the ripening window? (Rate from 1 to 5, where 1 is \"Indifferent\" and 5 is \"Highly Frustrated/Guilty\")": "4",
+      "When shopping, do you actively look for fruit that is already perfectly ripe, or do you prefer to buy it unripe so it lasts longer?": "I always look for perfectly ripe, ready-to-eat fruit.",
+      "Would you pay a small premium (e.g., 5-10% more) for fruit that features technology (like smart scanning or specialized packaging) ensuring a predictable, guaranteed ripening window?": "Yes, if it is a fruit I waste often (like bananas)"
+    },
+    {
+      "How often do you purchase fresh fruit for your household?": "Once a week",
+      "On average, what percentage of the fresh fruit you buy ends up being thrown away?": "1% – 10%",
+      "Have you ever thrown away fruit specifically because it went from \"unripe\" to \"spoiled/rotten\" faster than you expected?": "Yes, occasionally",
+      "Which of the following scenarios has caused you to throw away fruit?": "I bought it unripe, forgot about it, and it rotted on the counter.",
+      "Which fruits do you most frequently misjudge the ripening time for, leading to waste?": "Bananas, Mangoes, Berries(eg.,Raspberry, Blueberry,etc), Apples",
+      "How confident are you in your ability to predict exactly which day a piece of unripe fruit will be ready to eat?": "Somewhat confident",
+      "Before today, were you aware of the difference between \"climacteric\" fruits (which keep ripening after harvest, like bananas) and \"non-climacteric\" fruits (which do not ripen after harvest, like strawberries)?": "Yes, I knew the difference.",
+      "How do you typically feel when you have to throw away fruit because you missed the ripening window? (Rate from 1 to 5, where 1 is \"Indifferent\" and 5 is \"Highly Frustrated/Guilty\")": "4",
+      "When shopping, do you actively look for fruit that is already perfectly ripe, or do you prefer to buy it unripe so it lasts longer?": "I purposefully buy unripe fruit to prevent it from spoiling too quickly.",
+      "Would you pay a small premium (e.g., 5-10% more) for fruit that features technology (like smart scanning or specialized packaging) ensuring a predictable, guaranteed ripening window?": "Yes, if it is a fruit I waste often (like bananas)"
+    },
+    {
+      "How often do you purchase fresh fruit for your household?": "Once a week",
+      "On average, what percentage of the fresh fruit you buy ends up being thrown away?": "11% – 25%",
+      "Have you ever thrown away fruit specifically because it went from \"unripe\" to \"spoiled/rotten\" faster than you expected?": "Yes, occasionally",
+      "Which of the following scenarios has caused you to throw away fruit?": "I bought it unripe, forgot about it, and it rotted on the counter.",
+      "Which fruits do you most frequently misjudge the ripening time for, leading to waste?": "Bananas, Mangoes",
+      "How confident are you in your ability to predict exactly which day a piece of unripe fruit will be ready to eat?": "Not very confident",
+      "Before today, were you aware of the difference between \"climacteric\" fruits (which keep ripening after harvest, like bananas) and \"non-climacteric\" fruits (which do not ripen after harvest, like strawberries)?": "No, I did not know this.",
+      "How do you typically feel when you have to throw away fruit because you missed the ripening window? (Rate from 1 to 5, where 1 is \"Indifferent\" and 5 is \"Highly Frustrated/Guilty\")": "5",
+      "When shopping, do you actively look for fruit that is already perfectly ripe, or do you prefer to buy it unripe so it lasts longer?": "I purposefully buy unripe fruit to prevent it from spoiling too quickly.",
+      "Would you pay a small premium (e.g., 5-10% more) for fruit that features technology (like smart scanning or specialized packaging) ensuring a predictable, guaranteed ripening window?": "Yes, absolutely"
+    },
+    {
+      "How often do you purchase fresh fruit for your household?": "Once a week",
+      "On average, what percentage of the fresh fruit you buy ends up being thrown away?": "11% – 25%",
+      "Have you ever thrown away fruit specifically because it went from \"unripe\" to \"spoiled/rotten\" faster than you expected?": "Yes, occasionally",
+      "Which of the following scenarios has caused you to throw away fruit?": "I bought it unripe, forgot about it, and it rotted on the counter.",
+      "Which fruits do you most frequently misjudge the ripening time for, leading to waste?": "Bananas",
+      "How confident are you in your ability to predict exactly which day a piece of unripe fruit will be ready to eat?": "Not very confident",
+      "Before today, were you aware of the difference between \"climacteric\" fruits (which keep ripening after harvest, like bananas) and \"non-climacteric\" fruits (which do not ripen after harvest, like strawberries)?": "No, I did not know this.",
+      "How do you typically feel when you have to throw away fruit because you missed the ripening window? (Rate from 1 to 5, where 1 is \"Indifferent\" and 5 is \"Highly Frustrated/Guilty\")": "4",
+      "When shopping, do you actively look for fruit that is already perfectly ripe, or do you prefer to buy it unripe so it lasts longer?": "I always look for perfectly ripe, ready-to-eat fruit.",
+      "Would you pay a small premium (e.g., 5-10% more) for fruit that features technology (like smart scanning or specialized packaging) ensuring a predictable, guaranteed ripening window?": "Yes, absolutely"
+    },
+    {
+      "How often do you purchase fresh fruit for your household?": "Every two weeks",
+      "On average, what percentage of the fresh fruit you buy ends up being thrown away?": "0% (I never waste fruit)",
+      "Have you ever thrown away fruit specifically because it went from \"unripe\" to \"spoiled/rotten\" faster than you expected?": "Yes, occasionally",
+      "Which of the following scenarios has caused you to throw away fruit?": "I bought it unripe expecting it to sweeten, but it just spoiled instead (e.g., berries, citrus).",
+      "Which fruits do you most frequently misjudge the ripening time for, leading to waste?": "Bananas",
+      "How confident are you in your ability to predict exactly which day a piece of unripe fruit will be ready to eat?": "Not very confident",
+      "Before today, were you aware of the difference between \"climacteric\" fruits (which keep ripening after harvest, like bananas) and \"non-climacteric\" fruits (which do not ripen after harvest, like strawberries)?": "No, I did not know this.",
+      "How do you typically feel when you have to throw away fruit because you missed the ripening window? (Rate from 1 to 5, where 1 is \"Indifferent\" and 5 is \"Highly Frustrated/Guilty\")": "2",
+      "When shopping, do you actively look for fruit that is already perfectly ripe, or do you prefer to buy it unripe so it lasts longer?": "I always look for perfectly ripe, ready-to-eat fruit.",
+      "Would you pay a small premium (e.g., 5-10% more) for fruit that features technology (like smart scanning or specialized packaging) ensuring a predictable, guaranteed ripening window?": "No, I would not pay more"
+    },
+    {
+      "How often do you purchase fresh fruit for your household?": "Once a week",
+      "On average, what percentage of the fresh fruit you buy ends up being thrown away?": "1% – 10%",
+      "Have you ever thrown away fruit specifically because it went from \"unripe\" to \"spoiled/rotten\" faster than you expected?": "Yes, but very rarely",
+      "Which of the following scenarios has caused you to throw away fruit?": "It felt hard/unripe when I checked it, but it was already rotten on the inside.",
+      "Which fruits do you most frequently misjudge the ripening time for, leading to waste?": "Bananas, Melons (eg., Muskmelon, Watermelon, etc)",
+      "How confident are you in your ability to predict exactly which day a piece of unripe fruit will be ready to eat?": "Somewhat confident",
+      "Before today, were you aware of the difference between \"climacteric\" fruits (which keep ripening after harvest, like bananas) and \"non-climacteric\" fruits (which do not ripen after harvest, like strawberries)?": "I had heard of it, but wasn't entirely sure.",
+      "How do you typically feel when you have to throw away fruit because you missed the ripening window? (Rate from 1 to 5, where 1 is \"Indifferent\" and 5 is \"Highly Frustrated/Guilty\")": "3",
+      "When shopping, do you actively look for fruit that is already perfectly ripe, or do you prefer to buy it unripe so it lasts longer?": "I prefer buying a mix of ripe and unripe fruit.",
+      "Would you pay a small premium (e.g., 5-10% more) for fruit that features technology (like smart scanning or specialized packaging) ensuring a predictable, guaranteed ripening window?": "Yes, if it is a fruit I waste often (like bananas)"
+    },
+    {
+      "How often do you purchase fresh fruit for your household?": "Multiple times a week",
+      "On average, what percentage of the fresh fruit you buy ends up being thrown away?": "26% – 50%",
+      "Have you ever thrown away fruit specifically because it went from \"unripe\" to \"spoiled/rotten\" faster than you expected?": "Yes, frequently",
+      "Which of the following scenarios has caused you to throw away fruit?": "I bought it unripe expecting it to sweeten, but it just spoiled instead (e.g., berries, citrus).",
+      "Which fruits do you most frequently misjudge the ripening time for, leading to waste?": "Avocados, Bananas, Mangoes, Peaches/ Plums/Nectarines, Pears, Melons (eg., Muskmelon, Watermelon, etc)",
+      "How confident are you in your ability to predict exactly which day a piece of unripe fruit will be ready to eat?": "Not very confident",
+      "Before today, were you aware of the difference between \"climacteric\" fruits (which keep ripening after harvest, like bananas) and \"non-climacteric\" fruits (which do not ripen after harvest, like strawberries)?": "No, I did not know this.",
+      "How do you typically feel when you have to throw away fruit because you missed the ripening window? (Rate from 1 to 5, where 1 is \"Indifferent\" and 5 is \"Highly Frustrated/Guilty\")": "2",
+      "When shopping, do you actively look for fruit that is already perfectly ripe, or do you prefer to buy it unripe so it lasts longer?": "I always look for perfectly ripe, ready-to-eat fruit.",
+      "Would you pay a small premium (e.g., 5-10% more) for fruit that features technology (like smart scanning or specialized packaging) ensuring a predictable, guaranteed ripening window?": "Yes, absolutely"
+    },
+    {
+      "How often do you purchase fresh fruit for your household?": "Multiple times a week",
+      "On average, what percentage of the fresh fruit you buy ends up being thrown away?": "11% – 25%",
+      "Have you ever thrown away fruit specifically because it went from \"unripe\" to \"spoiled/rotten\" faster than you expected?": "Yes, occasionally",
+      "Which of the following scenarios has caused you to throw away fruit?": "I bought it unripe, forgot about it, and it rotted on the counter.",
+      "Which fruits do you most frequently misjudge the ripening time for, leading to waste?": "Bananas",
+      "How confident are you in your ability to predict exactly which day a piece of unripe fruit will be ready to eat?": "Somewhat confident",
+      "Before today, were you aware of the difference between \"climacteric\" fruits (which keep ripening after harvest, like bananas) and \"non-climacteric\" fruits (which do not ripen after harvest, like strawberries)?": "I had heard of it, but wasn't entirely sure.",
+      "How do you typically feel when you have to throw away fruit because you missed the ripening window? (Rate from 1 to 5, where 1 is \"Indifferent\" and 5 is \"Highly Frustrated/Guilty\")": "4",
+      "When shopping, do you actively look for fruit that is already perfectly ripe, or do you prefer to buy it unripe so it lasts longer?": "I prefer buying a mix of ripe and unripe fruit.",
+      "Would you pay a small premium (e.g., 5-10% more) for fruit that features technology (like smart scanning or specialized packaging) ensuring a predictable, guaranteed ripening window?": "Yes, absolutely"
+    },
+    {
+      "How often do you purchase fresh fruit for your household?": "Multiple times a week",
+      "On average, what percentage of the fresh fruit you buy ends up being thrown away?": "11% – 25%",
+      "Have you ever thrown away fruit specifically because it went from \"unripe\" to \"spoiled/rotten\" faster than you expected?": "Yes, occasionally",
+      "Which of the following scenarios has caused you to throw away fruit?": "I intentionally waited for it to ripen, but the window of \"perfect ripeness\" was too short.",
+      "Which fruits do you most frequently misjudge the ripening time for, leading to waste?": "Bananas, Mangoes",
+      "How confident are you in your ability to predict exactly which day a piece of unripe fruit will be ready to eat?": "Somewhat confident",
+      "Before today, were you aware of the difference between \"climacteric\" fruits (which keep ripening after harvest, like bananas) and \"non-climacteric\" fruits (which do not ripen after harvest, like strawberries)?": "Yes, I knew the difference.",
+      "How do you typically feel when you have to throw away fruit because you missed the ripening window? (Rate from 1 to 5, where 1 is \"Indifferent\" and 5 is \"Highly Frustrated/Guilty\")": "4",
+      "When shopping, do you actively look for fruit that is already perfectly ripe, or do you prefer to buy it unripe so it lasts longer?": "I prefer buying a mix of ripe and unripe fruit.",
+      "Would you pay a small premium (e.g., 5-10% more) for fruit that features technology (like smart scanning or specialized packaging) ensuring a predictable, guaranteed ripening window?": "Yes, absolutely"
+    },
+    {
+      "How often do you purchase fresh fruit for your household?": "Multiple times a week",
+      "On average, what percentage of the fresh fruit you buy ends up being thrown away?": "1% – 10%",
+      "Have you ever thrown away fruit specifically because it went from \"unripe\" to \"spoiled/rotten\" faster than you expected?": "Yes, but very rarely",
+      "Which of the following scenarios has caused you to throw away fruit?": "I bought it unripe expecting it to sweeten, but it just spoiled instead (e.g., berries, citrus).",
+      "Which fruits do you most frequently misjudge the ripening time for, leading to waste?": "Avocados, Bananas, Mangoes, Pears",
+      "How confident are you in your ability to predict exactly which day a piece of unripe fruit will be ready to eat?": "Somewhat confident",
+      "Before today, were you aware of the difference between \"climacteric\" fruits (which keep ripening after harvest, like bananas) and \"non-climacteric\" fruits (which do not ripen after harvest, like strawberries)?": "No, I did not know this.",
+      "How do you typically feel when you have to throw away fruit because you missed the ripening window? (Rate from 1 to 5, where 1 is \"Indifferent\" and 5 is \"Highly Frustrated/Guilty\")": "2",
+      "When shopping, do you actively look for fruit that is already perfectly ripe, or do you prefer to buy it unripe so it lasts longer?": "I prefer buying a mix of ripe and unripe fruit.",
+      "Would you pay a small premium (e.g., 5-10% more) for fruit that features technology (like smart scanning or specialized packaging) ensuring a predictable, guaranteed ripening window?": "Yes, absolutely"
+    },
+    {
+      "How often do you purchase fresh fruit for your household?": "Multiple times a week",
+      "On average, what percentage of the fresh fruit you buy ends up being thrown away?": "1% – 10%",
+      "Have you ever thrown away fruit specifically because it went from \"unripe\" to \"spoiled/rotten\" faster than you expected?": "Yes, but very rarely",
+      "Which of the following scenarios has caused you to throw away fruit?": "I bought it unripe expecting it to sweeten, but it just spoiled instead (e.g., berries, citrus).",
+      "Which fruits do you most frequently misjudge the ripening time for, leading to waste?": "Bananas",
+      "How confident are you in your ability to predict exactly which day a piece of unripe fruit will be ready to eat?": "Not very confident",
+      "Before today, were you aware of the difference between \"climacteric\" fruits (which keep ripening after harvest, like bananas) and \"non-climacteric\" fruits (which do not ripen after harvest, like strawberries)?": "Yes, I knew the difference.",
+      "How do you typically feel when you have to throw away fruit because you missed the ripening window? (Rate from 1 to 5, where 1 is \"Indifferent\" and 5 is \"Highly Frustrated/Guilty\")": "4",
+      "When shopping, do you actively look for fruit that is already perfectly ripe, or do you prefer to buy it unripe so it lasts longer?": "I prefer buying a mix of ripe and unripe fruit.",
+      "Would you pay a small premium (e.g., 5-10% more) for fruit that features technology (like smart scanning or specialized packaging) ensuring a predictable, guaranteed ripening window?": "Yes, if it is a fruit I waste often (like bananas)"
+    },
+    {
+      "How often do you purchase fresh fruit for your household?": "Once a week",
+      "On average, what percentage of the fresh fruit you buy ends up being thrown away?": "1% – 10%",
+      "Have you ever thrown away fruit specifically because it went from \"unripe\" to \"spoiled/rotten\" faster than you expected?": "Yes, frequently",
+      "Which of the following scenarios has caused you to throw away fruit?": "I bought it unripe, forgot about it, and it rotted on the counter.",
+      "Which fruits do you most frequently misjudge the ripening time for, leading to waste?": "Avocados, Bananas, Peaches/ Plums/Nectarines",
+      "How confident are you in your ability to predict exactly which day a piece of unripe fruit will be ready to eat?": "Somewhat confident",
+      "Before today, were you aware of the difference between \"climacteric\" fruits (which keep ripening after harvest, like bananas) and \"non-climacteric\" fruits (which do not ripen after harvest, like strawberries)?": "I had heard of it, but wasn't entirely sure.",
+      "How do you typically feel when you have to throw away fruit because you missed the ripening window? (Rate from 1 to 5, where 1 is \"Indifferent\" and 5 is \"Highly Frustrated/Guilty\")": "4",
+      "When shopping, do you actively look for fruit that is already perfectly ripe, or do you prefer to buy it unripe so it lasts longer?": "I prefer buying a mix of ripe and unripe fruit.",
+      "Would you pay a small premium (e.g., 5-10% more) for fruit that features technology (like smart scanning or specialized packaging) ensuring a predictable, guaranteed ripening window?": "Yes, absolutely"
+    },
+    {
+      "How often do you purchase fresh fruit for your household?": "Multiple times a week",
+      "On average, what percentage of the fresh fruit you buy ends up being thrown away?": "26% – 50%",
+      "Have you ever thrown away fruit specifically because it went from \"unripe\" to \"spoiled/rotten\" faster than you expected?": "Yes, occasionally",
+      "Which of the following scenarios has caused you to throw away fruit?": "It felt hard/unripe when I checked it, but it was already rotten on the inside.",
+      "Which fruits do you most frequently misjudge the ripening time for, leading to waste?": "Avocados, Bananas, Mangoes, Pears, Melons (eg., Muskmelon, Watermelon, etc)",
+      "How confident are you in your ability to predict exactly which day a piece of unripe fruit will be ready to eat?": "Somewhat confident",
+      "Before today, were you aware of the difference between \"climacteric\" fruits (which keep ripening after harvest, like bananas) and \"non-climacteric\" fruits (which do not ripen after harvest, like strawberries)?": "I had heard of it, but wasn't entirely sure.",
+      "How do you typically feel when you have to throw away fruit because you missed the ripening window? (Rate from 1 to 5, where 1 is \"Indifferent\" and 5 is \"Highly Frustrated/Guilty\")": "4",
+      "When shopping, do you actively look for fruit that is already perfectly ripe, or do you prefer to buy it unripe so it lasts longer?": "I prefer buying a mix of ripe and unripe fruit.",
+      "Would you pay a small premium (e.g., 5-10% more) for fruit that features technology (like smart scanning or specialized packaging) ensuring a predictable, guaranteed ripening window?": "Yes, if it is a fruit I waste often (like bananas)"
+    },
+    {
+      "How often do you purchase fresh fruit for your household?": "Multiple times a week",
+      "On average, what percentage of the fresh fruit you buy ends up being thrown away?": "0% (I never waste fruit)",
+      "Have you ever thrown away fruit specifically because it went from \"unripe\" to \"spoiled/rotten\" faster than you expected?": "Yes, but very rarely",
+      "Which of the following scenarios has caused you to throw away fruit?": "I bought it unripe expecting it to sweeten, but it just spoiled instead (e.g., berries, citrus).",
+      "Which fruits do you most frequently misjudge the ripening time for, leading to waste?": "Mangoes,",
+      "How confident are you in your ability to predict exactly which day a piece of unripe fruit will be ready to eat?": "Somewhat confident",
+      "Before today, were you aware of the difference between \"climacteric\" fruits (which keep ripening after harvest, like bananas) and \"non-climacteric\" fruits (which do not ripen after harvest, like strawberries)?": "I had heard of it, but wasn't entirely sure.",
+      "How do you typically feel when you have to throw away fruit because you missed the ripening window? (Rate from 1 to 5, where 1 is \"Indifferent\" and 5 is \"Highly Frustrated/Guilty\")": "5",
+      "When shopping, do you actively look for fruit that is already perfectly ripe, or do you prefer to buy it unripe so it lasts longer?": "I prefer buying a mix of ripe and unripe fruit.",
+      "Would you pay a small premium (e.g., 5-10% more) for fruit that features technology (like smart scanning or specialized packaging) ensuring a predictable, guaranteed ripening window?": "Yes, if it is a fruit I waste often (like bananas)"
+    },
+    {
+      "How often do you purchase fresh fruit for your household?": "Multiple times a week",
+      "On average, what percentage of the fresh fruit you buy ends up being thrown away?": "11% – 25%",
+      "Have you ever thrown away fruit specifically because it went from \"unripe\" to \"spoiled/rotten\" faster than you expected?": "Yes, frequently",
+      "Which of the following scenarios has caused you to throw away fruit?": "I bought it unripe, forgot about it, and it rotted on the counter.",
+      "Which fruits do you most frequently misjudge the ripening time for, leading to waste?": "Avocados, Bananas, Mangoes, Peaches/ Plums/Nectarines, Pears, Melons (eg., Muskmelon, Watermelon, etc), Berries(eg.,Raspberry, Blueberry,etc)",
+      "How confident are you in your ability to predict exactly which day a piece of unripe fruit will be ready to eat?": "Extremely confident",
+      "Before today, were you aware of the difference between \"climacteric\" fruits (which keep ripening after harvest, like bananas) and \"non-climacteric\" fruits (which do not ripen after harvest, like strawberries)?": "I had heard of it, but wasn't entirely sure.",
+      "How do you typically feel when you have to throw away fruit because you missed the ripening window? (Rate from 1 to 5, where 1 is \"Indifferent\" and 5 is \"Highly Frustrated/Guilty\")": "4",
+      "When shopping, do you actively look for fruit that is already perfectly ripe, or do you prefer to buy it unripe so it lasts longer?": "I always look for perfectly ripe, ready-to-eat fruit.",
+      "Would you pay a small premium (e.g., 5-10% more) for fruit that features technology (like smart scanning or specialized packaging) ensuring a predictable, guaranteed ripening window?": "Yes, absolutely"
+    },
+    {
+      "How often do you purchase fresh fruit for your household?": "Multiple times a week",
+      "On average, what percentage of the fresh fruit you buy ends up being thrown away?": "1% – 10%",
+      "Have you ever thrown away fruit specifically because it went from \"unripe\" to \"spoiled/rotten\" faster than you expected?": "Yes, but very rarely",
+      "Which of the following scenarios has caused you to throw away fruit?": "I bought it unripe, forgot about it, and it rotted on the counter.",
+      "Which fruits do you most frequently misjudge the ripening time for, leading to waste?": "Bananas, Melons (eg., Muskmelon, Watermelon, etc)",
+      "How confident are you in your ability to predict exactly which day a piece of unripe fruit will be ready to eat?": "Somewhat confident",
+      "Before today, were you aware of the difference between \"climacteric\" fruits (which keep ripening after harvest, like bananas) and \"non-climacteric\" fruits (which do not ripen after harvest, like strawberries)?": "Yes, I knew the difference.",
+      "How do you typically feel when you have to throw away fruit because you missed the ripening window? (Rate from 1 to 5, where 1 is \"Indifferent\" and 5 is \"Highly Frustrated/Guilty\")": "4",
+      "When shopping, do you actively look for fruit that is already perfectly ripe, or do you prefer to buy it unripe so it lasts longer?": "I prefer buying a mix of ripe and unripe fruit.",
+      "Would you pay a small premium (e.g., 5-10% more) for fruit that features technology (like smart scanning or specialized packaging) ensuring a predictable, guaranteed ripening window?": "Yes, if it is a fruit I waste often (like bananas)"
+    },
+    {
+      "How often do you purchase fresh fruit for your household?": "Once a week",
+      "On average, what percentage of the fresh fruit you buy ends up being thrown away?": "1% – 10%",
+      "Have you ever thrown away fruit specifically because it went from \"unripe\" to \"spoiled/rotten\" faster than you expected?": "Yes, occasionally",
+      "Which of the following scenarios has caused you to throw away fruit?": "It felt hard/unripe when I checked it, but it was already rotten on the inside.",
+      "Which fruits do you most frequently misjudge the ripening time for, leading to waste?": "Bananas, Mangoes,",
+      "How confident are you in your ability to predict exactly which day a piece of unripe fruit will be ready to eat?": "Somewhat confident",
+      "Before today, were you aware of the difference between \"climacteric\" fruits (which keep ripening after harvest, like bananas) and \"non-climacteric\" fruits (which do not ripen after harvest, like strawberries)?": "I had heard of it, but wasn't entirely sure.",
+      "How do you typically feel when you have to throw away fruit because you missed the ripening window? (Rate from 1 to 5, where 1 is \"Indifferent\" and 5 is \"Highly Frustrated/Guilty\")": "5",
+      "When shopping, do you actively look for fruit that is already perfectly ripe, or do you prefer to buy it unripe so it lasts longer?": "I prefer buying a mix of ripe and unripe fruit.",
+      "Would you pay a small premium (e.g., 5-10% more) for fruit that features technology (like smart scanning or specialized packaging) ensuring a predictable, guaranteed ripening window?": "Yes, absolutely"
+    },
+    {
+      "How often do you purchase fresh fruit for your household?": "Multiple times a week",
+      "On average, what percentage of the fresh fruit you buy ends up being thrown away?": "11% – 25%",
+      "Have you ever thrown away fruit specifically because it went from \"unripe\" to \"spoiled/rotten\" faster than you expected?": "Yes, frequently",
+      "Which of the following scenarios has caused you to throw away fruit?": "I bought it unripe, forgot about it, and it rotted on the counter.",
+      "Which fruits do you most frequently misjudge the ripening time for, leading to waste?": "Avocados",
+      "How confident are you in your ability to predict exactly which day a piece of unripe fruit will be ready to eat?": "Somewhat confident",
+      "Before today, were you aware of the difference between \"climacteric\" fruits (which keep ripening after harvest, like bananas) and \"non-climacteric\" fruits (which do not ripen after harvest, like strawberries)?": "No, I did not know this.",
+      "How do you typically feel when you have to throw away fruit because you missed the ripening window? (Rate from 1 to 5, where 1 is \"Indifferent\" and 5 is \"Highly Frustrated/Guilty\")": "4",
+      "When shopping, do you actively look for fruit that is already perfectly ripe, or do you prefer to buy it unripe so it lasts longer?": "I prefer buying a mix of ripe and unripe fruit.",
+      "Would you pay a small premium (e.g., 5-10% more) for fruit that features technology (like smart scanning or specialized packaging) ensuring a predictable, guaranteed ripening window?": "Yes, if it is a fruit I waste often (like bananas)"
+    },
+    {
+      "How often do you purchase fresh fruit for your household?": "Once a week",
+      "On average, what percentage of the fresh fruit you buy ends up being thrown away?": "1% – 10%",
+      "Have you ever thrown away fruit specifically because it went from \"unripe\" to \"spoiled/rotten\" faster than you expected?": "Yes, but very rarely",
+      "Which of the following scenarios has caused you to throw away fruit?": "It felt hard/unripe when I checked it, but it was already rotten on the inside.",
+      "Which fruits do you most frequently misjudge the ripening time for, leading to waste?": "Mangoes",
+      "How confident are you in your ability to predict exactly which day a piece of unripe fruit will be ready to eat?": "Not very confident",
+      "Before today, were you aware of the difference between \"climacteric\" fruits (which keep ripening after harvest, like bananas) and \"non-climacteric\" fruits (which do not ripen after harvest, like strawberries)?": "No, I did not know this.",
+      "How do you typically feel when you have to throw away fruit because you missed the ripening window? (Rate from 1 to 5, where 1 is \"Indifferent\" and 5 is \"Highly Frustrated/Guilty\")": "3",
+      "When shopping, do you actively look for fruit that is already perfectly ripe, or do you prefer to buy it unripe so it lasts longer?": "I prefer buying a mix of ripe and unripe fruit.",
+      "Would you pay a small premium (e.g., 5-10% more) for fruit that features technology (like smart scanning or specialized packaging) ensuring a predictable, guaranteed ripening window?": "Yes, if it is a fruit I waste often (like bananas)"
+    },
+    {
+      "How often do you purchase fresh fruit for your household?": "Multiple times a week",
+      "On average, what percentage of the fresh fruit you buy ends up being thrown away?": "11% – 25%",
+      "Have you ever thrown away fruit specifically because it went from \"unripe\" to \"spoiled/rotten\" faster than you expected?": "Yes, frequently",
+      "Which of the following scenarios has caused you to throw away fruit?": "I bought it unripe, forgot about it, and it rotted on the counter.",
+      "Which fruits do you most frequently misjudge the ripening time for, leading to waste?": "Mangoes",
+      "How confident are you in your ability to predict exactly which day a piece of unripe fruit will be ready to eat?": "Not very confident",
+      "Before today, were you aware of the difference between \"climacteric\" fruits (which keep ripening after harvest, like bananas) and \"non-climacteric\" fruits (which do not ripen after harvest, like strawberries)?": "No, I did not know this.",
+      "How do you typically feel when you have to throw away fruit because you missed the ripening window? (Rate from 1 to 5, where 1 is \"Indifferent\" and 5 is \"Highly Frustrated/Guilty\")": "5",
+      "When shopping, do you actively look for fruit that is already perfectly ripe, or do you prefer to buy it unripe so it lasts longer?": "I prefer buying a mix of ripe and unripe fruit.",
+      "Would you pay a small premium (e.g., 5-10% more) for fruit that features technology (like smart scanning or specialized packaging) ensuring a predictable, guaranteed ripening window?": "Yes, if it is a fruit I waste often (like bananas)"
+    },
+    {
+      "How often do you purchase fresh fruit for your household?": "Multiple times a week",
+      "On average, what percentage of the fresh fruit you buy ends up being thrown away?": "1% – 10%",
+      "Have you ever thrown away fruit specifically because it went from \"unripe\" to \"spoiled/rotten\" faster than you expected?": "Yes, but very rarely",
+      "Which of the following scenarios has caused you to throw away fruit?": "I bought it unripe expecting it to sweeten, but it just spoiled instead (e.g., berries, citrus).",
+      "Which fruits do you most frequently misjudge the ripening time for, leading to waste?": "Bananas, Mangoes",
+      "How confident are you in your ability to predict exactly which day a piece of unripe fruit will be ready to eat?": "Somewhat confident",
+      "Before today, were you aware of the difference between \"climacteric\" fruits (which keep ripening after harvest, like bananas) and \"non-climacteric\" fruits (which do not ripen after harvest, like strawberries)?": "I had heard of it, but wasn't entirely sure.",
+      "How do you typically feel when you have to throw away fruit because you missed the ripening window? (Rate from 1 to 5, where 1 is \"Indifferent\" and 5 is \"Highly Frustrated/Guilty\")": "5",
+      "When shopping, do you actively look for fruit that is already perfectly ripe, or do you prefer to buy it unripe so it lasts longer?": "I prefer buying a mix of ripe and unripe fruit.",
+      "Would you pay a small premium (e.g., 5-10% more) for fruit that features technology (like smart scanning or specialized packaging) ensuring a predictable, guaranteed ripening window?": "No, I would not pay more"
+    },
+    {
+      "How often do you purchase fresh fruit for your household?": "Multiple times a week",
+      "On average, what percentage of the fresh fruit you buy ends up being thrown away?": "1% – 10%",
+      "Have you ever thrown away fruit specifically because it went from \"unripe\" to \"spoiled/rotten\" faster than you expected?": "Yes, but very rarely",
+      "Which of the following scenarios has caused you to throw away fruit?": "It felt hard/unripe when I checked it, but it was already rotten on the inside.",
+      "Which fruits do you most frequently misjudge the ripening time for, leading to waste?": "Avocados, Bananas, Melons (eg., Muskmelon, Watermelon, etc), Berries(eg.,Raspberry, Blueberry,etc)",
+      "How confident are you in your ability to predict exactly which day a piece of unripe fruit will be ready to eat?": "Somewhat confident",
+      "Before today, were you aware of the difference between \"climacteric\" fruits (which keep ripening after harvest, like bananas) and \"non-climacteric\" fruits (which do not ripen after harvest, like strawberries)?": "Yes, I knew the difference.",
+      "How do you typically feel when you have to throw away fruit because you missed the ripening window? (Rate from 1 to 5, where 1 is \"Indifferent\" and 5 is \"Highly Frustrated/Guilty\")": "3",
+      "When shopping, do you actively look for fruit that is already perfectly ripe, or do you prefer to buy it unripe so it lasts longer?": "I prefer buying a mix of ripe and unripe fruit.",
+      "Would you pay a small premium (e.g., 5-10% more) for fruit that features technology (like smart scanning or specialized packaging) ensuring a predictable, guaranteed ripening window?": "Yes, if it is a fruit I waste often (like bananas)"
+    },
+    {
+      "How often do you purchase fresh fruit for your household?": "Multiple times a week",
+      "On average, what percentage of the fresh fruit you buy ends up being thrown away?": "26% – 50%",
+      "Have you ever thrown away fruit specifically because it went from \"unripe\" to \"spoiled/rotten\" faster than you expected?": "Yes, occasionally",
+      "Which of the following scenarios has caused you to throw away fruit?": "It felt hard/unripe when I checked it, but it was already rotten on the inside.",
+      "Which fruits do you most frequently misjudge the ripening time for, leading to waste?": "Mangoes, Melons (eg., Muskmelon, Watermelon, etc)",
+      "How confident are you in your ability to predict exactly which day a piece of unripe fruit will be ready to eat?": "Not very confident",
+      "Before today, were you aware of the difference between \"climacteric\" fruits (which keep ripening after harvest, like bananas) and \"non-climacteric\" fruits (which do not ripen after harvest, like strawberries)?": "I had heard of it, but wasn't entirely sure.",
+      "How do you typically feel when you have to throw away fruit because you missed the ripening window? (Rate from 1 to 5, where 1 is \"Indifferent\" and 5 is \"Highly Frustrated/Guilty\")": "3",
+      "When shopping, do you actively look for fruit that is already perfectly ripe, or do you prefer to buy it unripe so it lasts longer?": "I purposefully buy unripe fruit to prevent it from spoiling too quickly.",
+      "Would you pay a small premium (e.g., 5-10% more) for fruit that features technology (like smart scanning or specialized packaging) ensuring a predictable, guaranteed ripening window?": "Yes, absolutely"
+    },
+    {
+      "How often do you purchase fresh fruit for your household?": "Multiple times a week",
+      "On average, what percentage of the fresh fruit you buy ends up being thrown away?": "1% – 10%",
+      "Have you ever thrown away fruit specifically because it went from \"unripe\" to \"spoiled/rotten\" faster than you expected?": "Yes, but very rarely",
+      "Which of the following scenarios has caused you to throw away fruit?": "I bought it unripe, forgot about it, and it rotted on the counter.",
+      "Which fruits do you most frequently misjudge the ripening time for, leading to waste?": "Peaches/ Plums/Nectarines, Apples and oranges 🍎🍊",
+      "How confident are you in your ability to predict exactly which day a piece of unripe fruit will be ready to eat?": "Somewhat confident",
+      "Before today, were you aware of the difference between \"climacteric\" fruits (which keep ripening after harvest, like bananas) and \"non-climacteric\" fruits (which do not ripen after harvest, like strawberries)?": "I had heard of it, but wasn't entirely sure.",
+      "How do you typically feel when you have to throw away fruit because you missed the ripening window? (Rate from 1 to 5, where 1 is \"Indifferent\" and 5 is \"Highly Frustrated/Guilty\")": "3",
+      "When shopping, do you actively look for fruit that is already perfectly ripe, or do you prefer to buy it unripe so it lasts longer?": "I prefer buying a mix of ripe and unripe fruit.",
+      "Would you pay a small premium (e.g., 5-10% more) for fruit that features technology (like smart scanning or specialized packaging) ensuring a predictable, guaranteed ripening window?": "Yes, absolutely"
+    },
+    {
+      "How often do you purchase fresh fruit for your household?": "Multiple times a week",
+      "On average, what percentage of the fresh fruit you buy ends up being thrown away?": "0% (I never waste fruit)",
+      "Have you ever thrown away fruit specifically because it went from \"unripe\" to \"spoiled/rotten\" faster than you expected?": "Yes, but very rarely",
+      "Which of the following scenarios has caused you to throw away fruit?": "None of the above",
+      "Which fruits do you most frequently misjudge the ripening time for, leading to waste?": "Berries(eg.,Raspberry, Blueberry,etc)",
+      "How confident are you in your ability to predict exactly which day a piece of unripe fruit will be ready to eat?": "Not very confident",
+      "Before today, were you aware of the difference between \"climacteric\" fruits (which keep ripening after harvest, like bananas) and \"non-climacteric\" fruits (which do not ripen after harvest, like strawberries)?": "No, I did not know this.",
+      "How do you typically feel when you have to throw away fruit because you missed the ripening window? (Rate from 1 to 5, where 1 is \"Indifferent\" and 5 is \"Highly Frustrated/Guilty\")": "5",
+      "When shopping, do you actively look for fruit that is already perfectly ripe, or do you prefer to buy it unripe so it lasts longer?": "I prefer buying a mix of ripe and unripe fruit.",
+      "Would you pay a small premium (e.g., 5-10% more) for fruit that features technology (like smart scanning or specialized packaging) ensuring a predictable, guaranteed ripening window?": "Yes, absolutely"
+    },
+    {
+      "How often do you purchase fresh fruit for your household?": "Once a week",
+      "On average, what percentage of the fresh fruit you buy ends up being thrown away?": "26% – 50%",
+      "Have you ever thrown away fruit specifically because it went from \"unripe\" to \"spoiled/rotten\" faster than you expected?": "Yes, frequently",
+      "Which of the following scenarios has caused you to throw away fruit?": "I bought it unripe, forgot about it, and it rotted on the counter.",
+      "Which fruits do you most frequently misjudge the ripening time for, leading to waste?": "Bananas, Pears, Melons (eg., Muskmelon, Watermelon, etc)",
+      "How confident are you in your ability to predict exactly which day a piece of unripe fruit will be ready to eat?": "Somewhat confident",
+      "Before today, were you aware of the difference between \"climacteric\" fruits (which keep ripening after harvest, like bananas) and \"non-climacteric\" fruits (which do not ripen after harvest, like strawberries)?": "No, I did not know this.",
+      "How do you typically feel when you have to throw away fruit because you missed the ripening window? (Rate from 1 to 5, where 1 is \"Indifferent\" and 5 is \"Highly Frustrated/Guilty\")": "4",
+      "When shopping, do you actively look for fruit that is already perfectly ripe, or do you prefer to buy it unripe so it lasts longer?": "I prefer buying a mix of ripe and unripe fruit.",
+      "Would you pay a small premium (e.g., 5-10% more) for fruit that features technology (like smart scanning or specialized packaging) ensuring a predictable, guaranteed ripening window?": "Yes, if it is a fruit I waste often (like bananas)"
+    },
+    {
+      "How often do you purchase fresh fruit for your household?": "Multiple times a week",
+      "On average, what percentage of the fresh fruit you buy ends up being thrown away?": "0% (I never waste fruit)",
+      "Have you ever thrown away fruit specifically because it went from \"unripe\" to \"spoiled/rotten\" faster than you expected?": "Yes, but very rarely",
+      "Which of the following scenarios has caused you to throw away fruit?": "None of the above",
+      "Which fruits do you most frequently misjudge the ripening time for, leading to waste?": "Avocados, Bananas, Peaches/ Plums/Nectarines, Berries(eg.,Raspberry, Blueberry,etc)",
+      "How confident are you in your ability to predict exactly which day a piece of unripe fruit will be ready to eat?": "Somewhat confident",
+      "Before today, were you aware of the difference between \"climacteric\" fruits (which keep ripening after harvest, like bananas) and \"non-climacteric\" fruits (which do not ripen after harvest, like strawberries)?": "I had heard of it, but wasn't entirely sure.",
+      "How do you typically feel when you have to throw away fruit because you missed the ripening window? (Rate from 1 to 5, where 1 is \"Indifferent\" and 5 is \"Highly Frustrated/Guilty\")": "3",
+      "When shopping, do you actively look for fruit that is already perfectly ripe, or do you prefer to buy it unripe so it lasts longer?": "I prefer buying a mix of ripe and unripe fruit.",
+      "Would you pay a small premium (e.g., 5-10% more) for fruit that features technology (like smart scanning or specialized packaging) ensuring a predictable, guaranteed ripening window?": "Yes, if it is a fruit I waste often (like bananas)"
+    },
+    {
+      "How often do you purchase fresh fruit for your household?": "Once a week",
+      "On average, what percentage of the fresh fruit you buy ends up being thrown away?": "1% – 10%",
+      "Have you ever thrown away fruit specifically because it went from \"unripe\" to \"spoiled/rotten\" faster than you expected?": "Yes, occasionally",
+      "Which of the following scenarios has caused you to throw away fruit?": "It felt hard/unripe when I checked it, but it was already rotten on the inside.",
+      "Which fruits do you most frequently misjudge the ripening time for, leading to waste?": "Bananas, Orange, Sweet lime",
+      "How confident are you in your ability to predict exactly which day a piece of unripe fruit will be ready to eat?": "Somewhat confident",
+      "Before today, were you aware of the difference between \"climacteric\" fruits (which keep ripening after harvest, like bananas) and \"non-climacteric\" fruits (which do not ripen after harvest, like strawberries)?": "No, I did not know this.",
+      "How do you typically feel when you have to throw away fruit because you missed the ripening window? (Rate from 1 to 5, where 1 is \"Indifferent\" and 5 is \"Highly Frustrated/Guilty\")": "4",
+      "When shopping, do you actively look for fruit that is already perfectly ripe, or do you prefer to buy it unripe so it lasts longer?": "I prefer buying a mix of ripe and unripe fruit.",
+      "Would you pay a small premium (e.g., 5-10% more) for fruit that features technology (like smart scanning or specialized packaging) ensuring a predictable, guaranteed ripening window?": "Yes, if it is a fruit I waste often (like bananas)"
+    },
+    {
+      "How often do you purchase fresh fruit for your household?": "Rarely / Never",
+      "On average, what percentage of the fresh fruit you buy ends up being thrown away?": "11% – 25%",
+      "Have you ever thrown away fruit specifically because it went from \"unripe\" to \"spoiled/rotten\" faster than you expected?": "Yes, frequently",
+      "Which of the following scenarios has caused you to throw away fruit?": "I bought it unripe, forgot about it, and it rotted on the counter.",
+      "Which fruits do you most frequently misjudge the ripening time for, leading to waste?": "Bananas",
+      "How confident are you in your ability to predict exactly which day a piece of unripe fruit will be ready to eat?": "Somewhat confident",
+      "Before today, were you aware of the difference between \"climacteric\" fruits (which keep ripening after harvest, like bananas) and \"non-climacteric\" fruits (which do not ripen after harvest, like strawberries)?": "I had heard of it, but wasn't entirely sure.",
+      "How do you typically feel when you have to throw away fruit because you missed the ripening window? (Rate from 1 to 5, where 1 is \"Indifferent\" and 5 is \"Highly Frustrated/Guilty\")": "3",
+      "When shopping, do you actively look for fruit that is already perfectly ripe, or do you prefer to buy it unripe so it lasts longer?": "I always look for perfectly ripe, ready-to-eat fruit.",
+      "Would you pay a small premium (e.g., 5-10% more) for fruit that features technology (like smart scanning or specialized packaging) ensuring a predictable, guaranteed ripening window?": "Yes, if it is a fruit I waste often (like bananas)"
+    },
+    {
+      "How often do you purchase fresh fruit for your household?": "Multiple times a week",
+      "On average, what percentage of the fresh fruit you buy ends up being thrown away?": "1% – 10%",
+      "Have you ever thrown away fruit specifically because it went from \"unripe\" to \"spoiled/rotten\" faster than you expected?": "Yes, occasionally",
+      "Which of the following scenarios has caused you to throw away fruit?": "It felt hard/unripe when I checked it, but it was already rotten on the inside.",
+      "Which fruits do you most frequently misjudge the ripening time for, leading to waste?": "Avocados, Bananas, Mangoes, Peaches/ Plums/Nectarines, Pears, Melons (eg., Muskmelon, Watermelon, etc), Berries(eg.,Raspberry, Blueberry,etc)",
+      "How confident are you in your ability to predict exactly which day a piece of unripe fruit will be ready to eat?": "Somewhat confident",
+      "Before today, were you aware of the difference between \"climacteric\" fruits (which keep ripening after harvest, like bananas) and \"non-climacteric\" fruits (which do not ripen after harvest, like strawberries)?": "No, I did not know this.",
+      "How do you typically feel when you have to throw away fruit because you missed the ripening window? (Rate from 1 to 5, where 1 is \"Indifferent\" and 5 is \"Highly Frustrated/Guilty\")": "5",
+      "When shopping, do you actively look for fruit that is already perfectly ripe, or do you prefer to buy it unripe so it lasts longer?": "I purposefully buy unripe fruit to prevent it from spoiling too quickly.",
+      "Would you pay a small premium (e.g., 5-10% more) for fruit that features technology (like smart scanning or specialized packaging) ensuring a predictable, guaranteed ripening window?": "Yes, absolutely"
+    },
+    {
+      "How often do you purchase fresh fruit for your household?": "Multiple times a week",
+      "On average, what percentage of the fresh fruit you buy ends up being thrown away?": "11% – 25%",
+      "Have you ever thrown away fruit specifically because it went from \"unripe\" to \"spoiled/rotten\" faster than you expected?": "Yes, occasionally",
+      "Which of the following scenarios has caused you to throw away fruit?": "I bought it unripe, forgot about it, and it rotted on the counter.",
+      "Which fruits do you most frequently misjudge the ripening time for, leading to waste?": "Bananas",
+      "How confident are you in your ability to predict exactly which day a piece of unripe fruit will be ready to eat?": "Somewhat confident",
+      "Before today, were you aware of the difference between \"climacteric\" fruits (which keep ripening after harvest, like bananas) and \"non-climacteric\" fruits (which do not ripen after harvest, like strawberries)?": "No, I did not know this.",
+      "How do you typically feel when you have to throw away fruit because you missed the ripening window? (Rate from 1 to 5, where 1 is \"Indifferent\" and 5 is \"Highly Frustrated/Guilty\")": "4",
+      "When shopping, do you actively look for fruit that is already perfectly ripe, or do you prefer to buy it unripe so it lasts longer?": "I always look for perfectly ripe, ready-to-eat fruit.",
+      "Would you pay a small premium (e.g., 5-10% more) for fruit that features technology (like smart scanning or specialized packaging) ensuring a predictable, guaranteed ripening window?": "Yes, if it is a fruit I waste often (like bananas)"
+    },
+    {
+      "How often do you purchase fresh fruit for your household?": "Multiple times a week",
+      "On average, what percentage of the fresh fruit you buy ends up being thrown away?": "1% – 10%",
+      "Have you ever thrown away fruit specifically because it went from \"unripe\" to \"spoiled/rotten\" faster than you expected?": "Yes, occasionally",
+      "Which of the following scenarios has caused you to throw away fruit?": "It felt hard/unripe when I checked it, but it was already rotten on the inside.",
+      "Which fruits do you most frequently misjudge the ripening time for, leading to waste?": "Avocados, Peaches/ Plums/Nectarines, Melons (eg., Muskmelon, Watermelon, etc)",
+      "How confident are you in your ability to predict exactly which day a piece of unripe fruit will be ready to eat?": "Somewhat confident",
+      "Before today, were you aware of the difference between \"climacteric\" fruits (which keep ripening after harvest, like bananas) and \"non-climacteric\" fruits (which do not ripen after harvest, like strawberries)?": "Yes, I knew the difference.",
+      "How do you typically feel when you have to throw away fruit because you missed the ripening window? (Rate from 1 to 5, where 1 is \"Indifferent\" and 5 is \"Highly Frustrated/Guilty\")": "4",
+      "When shopping, do you actively look for fruit that is already perfectly ripe, or do you prefer to buy it unripe so it lasts longer?": "I prefer buying a mix of ripe and unripe fruit.",
+      "Would you pay a small premium (e.g., 5-10% more) for fruit that features technology (like smart scanning or specialized packaging) ensuring a predictable, guaranteed ripening window?": "Yes, absolutely"
+    },
+    {
+      "How often do you purchase fresh fruit for your household?": "Once a week",
+      "On average, what percentage of the fresh fruit you buy ends up being thrown away?": "1% – 10%",
+      "Have you ever thrown away fruit specifically because it went from \"unripe\" to \"spoiled/rotten\" faster than you expected?": "Yes, occasionally",
+      "Which of the following scenarios has caused you to throw away fruit?": "I intentionally waited for it to ripen, but the window of \"perfect ripeness\" was too short.",
+      "Which fruits do you most frequently misjudge the ripening time for, leading to waste?": "Bananas, Peaches/ Plums/Nectarines, custard apple",
+      "How confident are you in your ability to predict exactly which day a piece of unripe fruit will be ready to eat?": "Somewhat confident",
+      "Before today, were you aware of the difference between \"climacteric\" fruits (which keep ripening after harvest, like bananas) and \"non-climacteric\" fruits (which do not ripen after harvest, like strawberries)?": "No, I did not know this.",
+      "How do you typically feel when you have to throw away fruit because you missed the ripening window? (Rate from 1 to 5, where 1 is \"Indifferent\" and 5 is \"Highly Frustrated/Guilty\")": "5",
+      "When shopping, do you actively look for fruit that is already perfectly ripe, or do you prefer to buy it unripe so it lasts longer?": "I prefer buying a mix of ripe and unripe fruit.",
+      "Would you pay a small premium (e.g., 5-10% more) for fruit that features technology (like smart scanning or specialized packaging) ensuring a predictable, guaranteed ripening window?": "Yes, if it is a fruit I waste often (like bananas)"
+    },
+    {
+      "How often do you purchase fresh fruit for your household?": "Every two weeks",
+      "On average, what percentage of the fresh fruit you buy ends up being thrown away?": "1% – 10%",
+      "Have you ever thrown away fruit specifically because it went from \"unripe\" to \"spoiled/rotten\" faster than you expected?": "Yes, but very rarely",
+      "Which of the following scenarios has caused you to throw away fruit?": "None of the above",
+      "Which fruits do you most frequently misjudge the ripening time for, leading to waste?": "Bananas, Mangoes, Pears",
+      "How confident are you in your ability to predict exactly which day a piece of unripe fruit will be ready to eat?": "Not very confident",
+      "Before today, were you aware of the difference between \"climacteric\" fruits (which keep ripening after harvest, like bananas) and \"non-climacteric\" fruits (which do not ripen after harvest, like strawberries)?": "No, I did not know this.",
+      "How do you typically feel when you have to throw away fruit because you missed the ripening window? (Rate from 1 to 5, where 1 is \"Indifferent\" and 5 is \"Highly Frustrated/Guilty\")": "3",
+      "When shopping, do you actively look for fruit that is already perfectly ripe, or do you prefer to buy it unripe so it lasts longer?": "I always look for perfectly ripe, ready-to-eat fruit.",
+      "Would you pay a small premium (e.g., 5-10% more) for fruit that features technology (like smart scanning or specialized packaging) ensuring a predictable, guaranteed ripening window?": "Yes, if it is a fruit I waste often (like bananas)"
+    },
+    {
+      "How often do you purchase fresh fruit for your household?": "Multiple times a week",
+      "On average, what percentage of the fresh fruit you buy ends up being thrown away?": "11% – 25%",
+      "Have you ever thrown away fruit specifically because it went from \"unripe\" to \"spoiled/rotten\" faster than you expected?": "Yes, occasionally",
+      "Which of the following scenarios has caused you to throw away fruit?": "It felt hard/unripe when I checked it, but it was already rotten on the inside.",
+      "Which fruits do you most frequently misjudge the ripening time for, leading to waste?": "Bananas, Mangoes,",
+      "How confident are you in your ability to predict exactly which day a piece of unripe fruit will be ready to eat?": "Not very confident",
+      "Before today, were you aware of the difference between \"climacteric\" fruits (which keep ripening after harvest, like bananas) and \"non-climacteric\" fruits (which do not ripen after harvest, like strawberries)?": "I had heard of it, but wasn't entirely sure.",
+      "How do you typically feel when you have to throw away fruit because you missed the ripening window? (Rate from 1 to 5, where 1 is \"Indifferent\" and 5 is \"Highly Frustrated/Guilty\")": "5",
+      "When shopping, do you actively look for fruit that is already perfectly ripe, or do you prefer to buy it unripe so it lasts longer?": "I prefer buying a mix of ripe and unripe fruit.",
+      "Would you pay a small premium (e.g., 5-10% more) for fruit that features technology (like smart scanning or specialized packaging) ensuring a predictable, guaranteed ripening window?": "Yes, absolutely"
+    },
+    {
+      "How often do you purchase fresh fruit for your household?": "Once a week",
+      "On average, what percentage of the fresh fruit you buy ends up being thrown away?": "11% – 25%",
+      "Have you ever thrown away fruit specifically because it went from \"unripe\" to \"spoiled/rotten\" faster than you expected?": "Yes, frequently",
+      "Which of the following scenarios has caused you to throw away fruit?": "It felt hard/unripe when I checked it, but it was already rotten on the inside.",
+      "Which fruits do you most frequently misjudge the ripening time for, leading to waste?": "Bananas",
+      "How confident are you in your ability to predict exactly which day a piece of unripe fruit will be ready to eat?": "Somewhat confident",
+      "Before today, were you aware of the difference between \"climacteric\" fruits (which keep ripening after harvest, like bananas) and \"non-climacteric\" fruits (which do not ripen after harvest, like strawberries)?": "I had heard of it, but wasn't entirely sure.",
+      "How do you typically feel when you have to throw away fruit because you missed the ripening window? (Rate from 1 to 5, where 1 is \"Indifferent\" and 5 is \"Highly Frustrated/Guilty\")": "3",
+      "When shopping, do you actively look for fruit that is already perfectly ripe, or do you prefer to buy it unripe so it lasts longer?": "I prefer buying a mix of ripe and unripe fruit.",
+      "Would you pay a small premium (e.g., 5-10% more) for fruit that features technology (like smart scanning or specialized packaging) ensuring a predictable, guaranteed ripening window?": "Yes, if it is a fruit I waste often (like bananas)"
+    },
+    {
+      "How often do you purchase fresh fruit for your household?": "Multiple times a week",
+      "On average, what percentage of the fresh fruit you buy ends up being thrown away?": "11% – 25%",
+      "Have you ever thrown away fruit specifically because it went from \"unripe\" to \"spoiled/rotten\" faster than you expected?": "Yes, occasionally",
+      "Which of the following scenarios has caused you to throw away fruit?": "I intentionally waited for it to ripen, but the window of \"perfect ripeness\" was too short.",
+      "Which fruits do you most frequently misjudge the ripening time for, leading to waste?": "Avocados, Bananas",
+      "How confident are you in your ability to predict exactly which day a piece of unripe fruit will be ready to eat?": "Not very confident",
+      "Before today, were you aware of the difference between \"climacteric\" fruits (which keep ripening after harvest, like bananas) and \"non-climacteric\" fruits (which do not ripen after harvest, like strawberries)?": "Yes, I knew the difference.",
+      "How do you typically feel when you have to throw away fruit because you missed the ripening window? (Rate from 1 to 5, where 1 is \"Indifferent\" and 5 is \"Highly Frustrated/Guilty\")": "5",
+      "When shopping, do you actively look for fruit that is already perfectly ripe, or do you prefer to buy it unripe so it lasts longer?": "I prefer buying a mix of ripe and unripe fruit.",
+      "Would you pay a small premium (e.g., 5-10% more) for fruit that features technology (like smart scanning or specialized packaging) ensuring a predictable, guaranteed ripening window?": "Yes, if it is a fruit I waste often (like bananas)"
+    },
+    {
+      "How often do you purchase fresh fruit for your household?": "Multiple times a week",
+      "On average, what percentage of the fresh fruit you buy ends up being thrown away?": "0% (I never waste fruit)",
+      "Have you ever thrown away fruit specifically because it went from \"unripe\" to \"spoiled/rotten\" faster than you expected?": "Yes, frequently",
+      "Which of the following scenarios has caused you to throw away fruit?": "I bought it unripe, forgot about it, and it rotted on the counter.",
+      "Which fruits do you most frequently misjudge the ripening time for, leading to waste?": "Avocados, Bananas, Mangoes, Peaches/ Plums/Nectarines, Pears, Berries(eg.,Raspberry, Blueberry,etc)",
+      "How confident are you in your ability to predict exactly which day a piece of unripe fruit will be ready to eat?": "Extremely confident",
+      "Before today, were you aware of the difference between \"climacteric\" fruits (which keep ripening after harvest, like bananas) and \"non-climacteric\" fruits (which do not ripen after harvest, like strawberries)?": "Yes, I knew the difference.",
+      "How do you typically feel when you have to throw away fruit because you missed the ripening window? (Rate from 1 to 5, where 1 is \"Indifferent\" and 5 is \"Highly Frustrated/Guilty\")": "5",
+      "When shopping, do you actively look for fruit that is already perfectly ripe, or do you prefer to buy it unripe so it lasts longer?": "I prefer buying a mix of ripe and unripe fruit.",
+      "Would you pay a small premium (e.g., 5-10% more) for fruit that features technology (like smart scanning or specialized packaging) ensuring a predictable, guaranteed ripening window?": "Yes, absolutely"
+    }
+  ]
+}
